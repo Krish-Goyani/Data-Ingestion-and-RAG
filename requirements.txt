@@ -1,0 +1,2 @@
+fastapi[standard]
+groq==0.13.0
