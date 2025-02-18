@@ -12,7 +12,7 @@ from starlette import status
 
 class FileConversionService:
     def __init__(self, output_format="markdown") -> None:
-        self.config = {
+        '''self.config = {
             "output_format": output_format,
             "languages": "en",
             "disable_image_extraction": True,
@@ -24,9 +24,10 @@ class FileConversionService:
         self.converter = PdfConverter(
             artifact_dict=create_model_dict(),
             config=self.config_parser.generate_config_dict(),
-        )
+        )'''
+        pass
 
-    async def convert_to_markdown(self, file_bytes: UploadFile):
+    '''async def convert_to_markdown(self, file_bytes: UploadFile):
         try:
             # ✅ Use in-memory file instead of saving to disk
             with tempfile.NamedTemporaryFile(
@@ -51,3 +52,12 @@ class FileConversionService:
                 content={"detail": f"Error during PDF conversion: {str(e)}"},
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             ) 
+            '''
+    async def convert_to_text(self, file_bytes : UploadFile):
+        try:
+            # Read file content
+            content = await file_bytes.read()
+            text = content.decode("utf-8")
+            return text
+        except Exception as e:  
+            print(e)
