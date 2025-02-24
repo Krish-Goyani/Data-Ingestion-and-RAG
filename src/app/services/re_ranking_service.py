@@ -19,4 +19,4 @@ class ReRanker:
                 }
             )
 
-        return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data]
+        return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data], results.usage["rerank_units"]

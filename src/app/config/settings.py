@@ -5,6 +5,9 @@ class Settings(BaseSettings):
     GROQ_API_KEY : str
     QDRANT_URL : str
     MILVUS_URI : str
+    MONGO_URI : str
+    MONGODB_COLLECTION_NAME : str
+    MONGODB_DB_NAME : str
         
 
     class Config:

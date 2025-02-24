@@ -47,7 +47,7 @@ class VectorDBService:
             try:    
                 async with pc.IndexAsyncio(host= index_info.host) as idx:            
                     total_tokens_used = 0
-                    
+                    e_total_tokens_used = 0
                     # Process in batches
                     for i in range(0, len(chunks), self.batch_size):
                         batch = chunks[i:i + self.batch_size]
@@ -70,7 +70,7 @@ class VectorDBService:
                                 "truncate": "END"
                             }
                         )
-
+                        e_total_tokens_used += embeddings.usage["total_tokens"]
                         records = [
                             {
                                 "id": str(uuid.uuid4()),  # Ensure ID is a string
@@ -85,7 +85,9 @@ class VectorDBService:
                         print(f"Batch {i // self.batch_size + 1} upserted successfully.")
 
                         # Update total token usage
-                        total_tokens_used += batch_token_count                    
+                        total_tokens_used += batch_token_count
+                        
+                return e_total_tokens_used                    
             except Exception as e:
                 print(e) 
                            

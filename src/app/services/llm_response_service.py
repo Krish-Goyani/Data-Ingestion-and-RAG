@@ -54,7 +54,7 @@ class LLMResponseService:
                 max_tokens=1024
             )
 
-            return response.choices[0].message.content.strip()
+            return response.choices[0].message.content.strip(), response.usage.to_dict()
         
         except Exception as e:
             return f"Error generating LLM response: {str(e)}"

@@ -28,6 +28,7 @@ class RetrieveChunksService:
             index_info = await pc.describe_index(name=self.index_name)
 
             try:
+
                 async with pc.IndexAsyncio(host=index_info.host) as idx:
                     # Generate embedding for the query
                     embedding_result = await pc.inference.embed(
@@ -38,7 +39,8 @@ class RetrieveChunksService:
                             "truncate": "END"
                         }
                     )
-
+                    query_token_usage = embedding_result.usage["total_tokens"]
+                    
                     # Perform similarity search
                     results = await idx.query(
                         vector=embedding_result[0].values,
@@ -49,7 +51,7 @@ class RetrieveChunksService:
                     # Extract retrieved chunks
                     retrieved_chunks = [match["metadata"]["text"] for match in results["matches"]]
                     
-                    return retrieved_chunks
+                    return retrieved_chunks, query_token_usage, results.usage["read_units"]
 
             except Exception as e:
                 print(f"Error retrieving chunks: {e}")
@@ -161,7 +163,7 @@ class RetrieveChunksService:
 
                     # Extract retrieved chunks
                     retrieved_chunks = [match["metadata"]["text"] for match in results["matches"]]
-                    return retrieved_chunks
+                    return retrieved_chunks, results.usage["read_units"]
 
             except Exception as e:
                 print(f"Error retrieving chunks: {e}")
