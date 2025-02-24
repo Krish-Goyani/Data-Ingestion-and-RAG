@@ -9,7 +9,7 @@ class FileuploadController:
         self.file_upload_usecase = file_upload_usecase
         
         
-    async def process_file(self,file_bytes : bytes,chunk_size,chunk_overlap ):
-        return await self.file_upload_usecase.process_file(file_bytes, chunk_size, chunk_overlap)
-        
+    async def process_file(self,file_bytes : bytes,chunk_size,chunk_overlap, query ):
+        return await self.file_upload_usecase.process_file(file_bytes, chunk_size, chunk_overlap, query)
+    
         

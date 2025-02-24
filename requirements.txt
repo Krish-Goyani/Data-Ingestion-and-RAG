@@ -6,3 +6,5 @@ streamlit
 pymupdf4llm
 python-multipart
 watchdog
+pinecone[grpc]
+pinecone[asyncio]

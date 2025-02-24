@@ -184,4 +184,6 @@ report
 template.py
 file.pdf
 output.md
-experiments
+./experiments
+experiments/pdf_reader.ipynb
+qdrant_storage

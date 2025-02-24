@@ -11,15 +11,17 @@ file_upload_router = APIRouter()
 async def create_upload_file(
     file: UploadFile,
     chunk_size,
-    chunk_overlap,
+    chunk_overlap,query,
     file_upload_controller=Depends(FileuploadController),
 ):
     if not file:
         return {"message": "No upload file sent"}
     else:
-        chunks = await file_upload_controller.process_file(
+        chunks, pinecone_chunks, qdrant_chunks = await file_upload_controller.process_file(
             file,
             int(chunk_size),
-            int(chunk_overlap)
+            int(chunk_overlap),
+            query
         )
-        return {"filename": file.filename, "chunks": chunks}
+
+        return {"filename": file.filename, "chunks": chunks, "pinecone_chunks": pinecone_chunks, "qdrant_chunks" : qdrant_chunks}
