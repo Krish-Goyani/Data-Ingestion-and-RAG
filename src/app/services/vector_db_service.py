@@ -10,6 +10,7 @@ from src.app.config.settings import settings
 from pymilvus import AsyncMilvusClient, MilvusClient, DataType
 from pinecone import Pinecone, SparseValues, Vector
 import uuid
+import time
 
 class VectorDBService:
     def __init__(self) -> None:
@@ -67,8 +68,10 @@ class VectorDBService:
                             inputs=batch,
                             parameters={
                                 "input_type": "passage",
-                                "truncate": "END"
+                                "truncate": "END",
+                                "dimension" : 1024
                             }
+                            
                         )
                         e_total_tokens_used += embeddings.usage["total_tokens"]
                         records = [
@@ -86,7 +89,6 @@ class VectorDBService:
 
                         # Update total token usage
                         total_tokens_used += batch_token_count
-                        
                 return e_total_tokens_used                    
             except Exception as e:
                 print(e) 
@@ -229,6 +231,7 @@ class VectorDBService:
                         vectors.append(vec) 
                         
                     await idx.upsert(vectors = vectors)
+                
             except Exception as e:
                 print(e)
                 

@@ -9,3 +9,6 @@ watchdog
 pinecone[grpc]
 pinecone[asyncio]
 motor
+ragas
+langchain-google-genai
+langchain-groq

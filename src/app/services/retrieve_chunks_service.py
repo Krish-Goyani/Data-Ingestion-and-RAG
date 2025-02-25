@@ -36,7 +36,8 @@ class RetrieveChunksService:
                         inputs=[query],
                         parameters={
                             "input_type": "query",
-                            "truncate": "END"
+                            "truncate": "END",
+                            "dimension" : 1024
                         }
                     )
                     query_token_usage = embedding_result.usage["total_tokens"]
@@ -66,7 +67,8 @@ class RetrieveChunksService:
                     inputs=[query],
                     parameters={
                         "input_type": "query",
-                        "truncate": "END"
+                        "truncate": "END",
+                        "dimension" : 1024
                     }
                 )
         

@@ -1,469 +1,1029 @@
-**Setting Up a Mobile Device for Company Email**
+Bullet Kin
+Bullet Kin are one of the most common enemies. They slowly walk towards the player, occasionally firing a single bullet. They can flip tables and use them as cover. They will also deal contact damage if the player touches them.
 
-**Prerequisites:**
+Occasionally, Bullet Kin will have assault rifles, in which case they will rapidly fire 8 bullets towards the player before reloading. When an assault rifle wielding bullet kin appears, there will often be more in the same room.
 
-* Mobile device with a supported operating system (iOS, Android, or Windows)
-* Company email account credentials
-* Mobile device management (MDM) profile installed (if required by company policy)
+On some occasions the player will also encounter incapacitated Bullet Kin lying on the floor. These Bullet Kin are props and disintegrate upon touch. They can be found in mass quantity in Oubliette.
 
-**Step 1: Ensure Mobile Device Management (MDM) Profile is Installed (if required)**
+In the Black Powder Mine, they can also ride Minecarts. In fact, if there are any unoccupied Minecarts within the room, they will take priority by walking towards them to ride in.
 
-If your company requires MDM for mobile devices, ensure that the profile is installed on your device. This profile will allow your device to connect to the company network and access company email. If you are unsure whether MDM is required, contact your IT department for assistance.
+Trivia
+Bullet Kin wield Magnums. Assault-rifle wielding Bullet Kin wield AK-47s.
+Incapacitated Bullet Kin can be found in the Oublilette and Cannon's boss room.
+In the Oubliette and the boss fight against Agunim, some room props resemble Bullet Kin poking out from inside barrels. This is likely a visual joke on a bullet inside a gun barrel.
+In the Portuguese translation of the game, they are known as "Balùnculo", a portmanteau of the words "bala" (bullet) and "homúnculo" (homunculus).
+Bullet Kin makes a playable appearance in the platform fighting games Indie Pogo and Indie Game Battle.
+Bullet Kin is also a crossover skin in the game Riverbond.
+Bullet Kin also has a cameo as lower and upper parts of a skin in the game Fall Guys: Ultimate Knockout.
+Veteran Bullet Kin
+Veteran Bullet Kin are similar to regular Bullet Kin, but have a higher rate of fire, higher shot speed and attempt to predict the player's movements. They also run faster than normal Bullet Kin, allowing them to catch up with the player quickly if they attempt to take cover.
 
-**Step 2: Set Up Email Account on Mobile Device**
+They fire 4 bullets in a row. If the player moves out of sight from one then the Veteran will pause his attack and then fire the remaining bullets once he has caught up.
 
-1. Go to the Settings app on your mobile device.
-2. Select "Mail" or "Email" (depending on your device's operating system).
-3. Tap "Add Account" or "Create a new account".
-4. Select "Exchange" or "Corporate" as the account type.
-5. Enter your company email address and password.
-6. If prompted, enter the company's email server address (e.g., mail.company.com).
-7. Select the desired synchronization options (e.g., sync email, contacts, calendar).
+Bandana Bullet Kin
+Bandana Bullet Kin behave like regular Bullet Kin, but their fire rate is heavily increased. Bandana Bullet Kin also have a higher magazine size than Bullet Kin that wield AK-47s, making them more relentless.
 
-**Step 3: Configure Email Settings**
+Trivia
+Bandana Bullet Kin wield Machine Pistols.
 
-1. In the email account settings, select the "Advanced" or "Security" option.
-2. Ensure that the "Use SSL/TLS" or "Use secure connection" option is enabled.
-3. Set the authentication method to "Username and Password" or "Domain\Username".
-4. If prompted, enter your company's email domain (e.g., company.com).
+Tanker
+Tankers behave like regular Bullet Kin, but have higher health and higher rate of fire. Tankers can be spawned by Treadnaught.
 
-**Step 4: Verify Email Account**
+Their rate of fire is slightly lower than that of Bandana Bullet Kin, but they are just as relentless.
 
-1. Wait for the email account to synchronize with the company email server.
-2. Send a test email to yourself or a colleague to verify that email is sending and receiving correctly.
+Trivia
+Tankers wield AK-47s.
+The Tanker's expression in his Ammonomicon profile resembles that of the Bullet's avatar when talking to an NPC.
 
-**Troubleshooting Tips:**
+Minelet
+Minelets behave like regular Bullet Kin, but will occasionally hide under their hard hat, deflecting incoming projectiles. They will then pop out from underneath their hard hat, releasing a ring of bullets in all directions.
 
-* If you encounter issues setting up your email account, ensure that your device has a stable internet connection and that your email credentials are correct.
-* If you are unable to connect to the company email server, contact your IT department for assistance.
-* If you experience issues with email synchronization, try restarting your device or checking the email account settings.
+Trivia
+Minelets are a possible reference to Mets from the Mega Man series because of their similar behavior. They both hide under their helmets to protect themselves and attack when they emerge.
 
-**Additional Information:**
+Cardinal
+Cardinals behave like regular Bullet Kin, but have 50% higher health and will occasionally pause to shoot a group of 5 bullets that will home in on players.
 
-* For security reasons, it is recommended to set up a password or PIN lock on your mobile device.
-* Company email policies may require additional security measures, such as encryption or two-factor authentication. Contact your IT department for more information.
-* If you need further assistance or have questions about company email policies, contact your IT department or refer to the company's email policy documentation.
-**Resetting a Forgotten PIN**
+Though a minor effect, these bullets spin around each other as they travel, similar to Apprentice Gunjurers. This occasionally allows them to slip through corners as only some of the bullets will be destroyed.
 
-If you have forgotten your PIN, you can reset it using the following steps:
+Trivia
+Although normally seen in the Abbey & Hollow, a single cardinal may be seen in the first floor, tending to a small cemetery filled with gravestones. He is the only enemy in that room.
+"Of the gun" is a play on the phrase "of the cloth", meaning a member of the clergy.
 
-**Step 1: Access the PIN Reset Tool**
+Shroomer
+Shroomers behave like regular Bullet Kin, but have double health and fire two bullets in a V shape. Their bullets can be avoided by standing still, but this can jeopardise dodging the more accurate projectiles of any accompanying enemies. They may also spawn in Gungeon Proper, though rarely.
 
-1. Go to the company's intranet homepage and click on the "IT Support" link at the top right corner of the page.
-2. Click on the "Self-Service" tab and then select "PIN Reset" from the drop-down menu.
-3. You will be redirected to the PIN Reset Tool login page.
+Trivia
+Shroomers will misfire upon spawning, having to stand up after being spawned.
 
-**Step 2: Authenticate with Your Credentials**
+Ashen Bullet Kin
+Ashen Bullet Kin have a higher rate of fire and higher shot speed than regular Bullet Kin. They seem to alternate between firing directly at the player and predicting their movements when shooting.
 
-1. Enter your company username and password in the required fields.
-2. Click the "Login" button to authenticate.
+In some rooms of the Forge, Ashen Bullet Kin have the ability to spawn out of ashen statues, which allows them to catch the player off guard.
 
-**Step 3: Verify Your Identity**
+Trivia
+The quote "Cinder Fella" is a clear wordplay between "Cinderella", the famous fairytale, and "Fella" a familiar term for a friend or a person that you consider close.
+The French traduction of this quote "Balle au bois dormant" is also a wordplay between the fairytale "La belle au bois dormant" (Sleeping Beauty) and "Balle" (Bullet)
+Like its normal counterpart, the Ashen Bullet Kin has a cameo as lower and upper parts of a skin in the game Fall Guys: Ultimate Knockout.
 
-1. You will be prompted to answer your security question. Enter your answer in the required field.
-2. Click the "Next" button to proceed.
+Mutant Bullet Kin
+Mutant Bullet Kin behave like regular Bullet Kin, but have higher health and will occasionally stop to release a cone of poison creep. They are immune to Poison effects. The cone of poison can only be released horizontally, so attacking from above or below are the safer options.
 
-**Step 4: Reset Your PIN**
+Trivia
+Its subtitle references Old Faithful, a geyser in Yellowstone National Park.
 
-1. Enter a new PIN in the required field. The PIN must be at least 8 characters long and contain a mix of uppercase and lowercase letters, numbers, and special characters.
-2. Re-enter your new PIN in the confirmation field to ensure accuracy.
-3. Click the "Reset PIN" button to complete the process.
+Fallen Bullet Kin
+Fallen Bullet Kin walk towards the player, firing spreads of 3 fire-shaped bullets. They leave behind a small patch of fire upon death. Despite this, they are not immune to fire damage.
 
-**Step 5: Confirm PIN Reset**
+Notes
+Fallen Bullet Kin will leave their pools of fire in the area where they took the blow that killed them. It will not be spawned where their death animation ends.
+Trivia
+Fallen Bullet Kin wield Pitchforks.
+The sounds that Fallen Bullet Kin make are lower pitched versions of regular Bullet Kin.
+These enemies can also be spawned by Lament Configurum.
+A portrait of a Fallen Bullet Kin can be seen in the Abbey of the True Gun.
+In the Portuguese translation of the game, they are known as "Ex-Balùnculo" (Ex-Bullet Kin), so in that version of the game, it is implied that they are no longer a type of bullet kin, this transformation may have happened through their death, where they were sent to the Sixth Chamber.
 
-1. You will receive a confirmation message indicating that your PIN has been successfully reset.
-2. Click the "OK" button to close the message.
+Keybullet Kin
+Keybullet Kin run away from the player, and drop a key upon death. However, if the player does not manage to kill them in time, they will disappear.
 
-**Important Notes:**
+Unlike other Bullet Kin, Keybullet Kin do not deal contact damage if they run into the player.
 
-* If you are unable to reset your PIN using the self-service tool, please contact the IT Helpdesk for assistance.
-* It is recommended to keep your PIN confidential and not share it with anyone.
-* You can reset your PIN a maximum of 3 times in a 24-hour period. If you exceed this limit, you will need to contact the IT Helpdesk to reset your PIN.
+Jammed Keybullet Kin drop 2 keys instead of 1. These Jammed variations run faster and will take less time to teleport away from the player if they are not destroyed quickly.
 
-By following these steps, you should be able to reset your forgotten PIN and regain access to company systems and applications. If you encounter any issues during the process, please do not hesitate to reach out to the IT Helpdesk for further assistance.
-**Configuring VPN Access for Remote Workers**
+If a Keybullet Kin is knocked into a pit, it will not drop a key.
 
-**Overview**
+The chances for a specific number of Keybullet Kin to spawn on a floor are:
 
-This article provides step-by-step instructions for configuring VPN access for remote workers. This allows employees working from home or other remote locations to securely connect to the company network and access company resources.
+0	1	2
+50%	30%	20%
+Trivia
+Keybullet Kin may appear in boss arenas during the Boss Rush.
+Keybullet Kin have a small chance to appear in elevator rooms at the start of a floor.
+Killing 15 Keybullet Kin unlocks the Springheel Boots.
+Keybullet Kin and Chance Kin's behavior is modeled after the Crystal Lizards from the Souls series and the Wandering Madness from Bloodborne. Both are harmless "enemies" that quickly run away from the player—often leading them directly into the path of danger—and despawn after a short time, with the promise of valuable loot if they are killed.
 
-**Prerequisites**
+Chance Kin
+Chance Kin run away from the player, and drop a random pickup upon death. However, if the player does not manage to kill them in time, they will disappear. Jammed Chance Kins have a chance to drop twice the loot.
 
-* The remote worker's device (laptop or desktop) must meet the company's minimum system requirements for VPN connectivity.
-* The remote worker must have a valid company login credentials.
-* The remote worker must have a stable internet connection.
+The chances for a specific number of Chance Kin to spawn on a floor are:
 
-**Step 1: Install the VPN Client**
+0	1	2
+50%	30%	20%
+Trivia
+Chance Kin may appear in boss arenas during Boss Rush.
+Chance Kin have a small chance to appear in elevator rooms at the start of the floor.
+The Chance Kin's subtitle is a reference to the common phrase "No Second Chances."
+Chance Kin block player movement during their death animation.
+Chance Kin can appear in the same room as a Keybullet Kin.
+Keybullet Kin and Chance Kin's behavior is modeled after the Crystal Lizards from the Souls series and the Wandering Madness from Bloodborne. Both are harmless "enemies" that quickly run away from the player—often leading them directly into the path of danger—and despawn after a short time, with the promise of valuable loot if they are killed.
 
-1. Go to the company's software portal and download the VPN client software.
-2. Run the installer and follow the prompts to install the software.
-3. Once installed, launch the VPN client software.
+Confirmed
+Confirmed are mysterious cloaked Bullet Kin. They stroll towards the player, occasionally stopping to fire four slithering lines of bullets at the player from under their hoods.
 
-**Step 2: Configure the VPN Connection**
+Confirmed do not appear in specific room layouts. Instead, they have a small chance to replace an enemy in any room. Only one Confirmed can appear on each floor.
 
-1. In the VPN client software, click on "New Connection" and select "Company VPN" as the connection type.
-2. Enter the company's VPN server address: `vpn.company.com`.
-3. Enter your company login credentials (username and password).
-4. Select the "Save" button to save the connection settings.
+Defeating ten Confirmed unlocks the Yellow Chamber.
 
-**Step 3: Establish the VPN Connection**
+Trivia
+The splash art for Confirmed show them having dozens of red eye-like bullets residing within their cloaks. This bears resemblance to the High Priest's splash art.
+The Confirmed are referred to by numerous other names in the game's code, such as 'Kaliber Cultist', and 'Faceless Cultist'.
 
-1. Click on the "Connect" button to establish the VPN connection.
-2. You may be prompted to authenticate with two-factor authentication (2FA). Follow the prompts to complete 2FA.
-3. Once connected, you will see a confirmation message indicating that you are connected to the company VPN.
+Red-Caped Bullet Kin
+Bullet Kin with red capes will rarely appear in random rooms after at least one Past has been killed. These Bullet Kin do not attack the player, and wander aimlessly. If it is the only enemy remaining in the room and it is left alone for long enough, it will disappear. After this happens 5 times, The Bullet is unlocked, and Red-Caped Bullet Kin stop spawning.
 
-**Step 4: Verify VPN Connection**
+The chances that one will spawn on the six main floors are as follows:
 
-1. Open a web browser and navigate to `company.com`.
-2. You should be able to access company resources, such as email, intranet, and file shares.
-3. Verify that your device's IP address has changed to a company-assigned IP address.
+1	2	3	4	5	6
+8%	8%	12%	16%	20%	25%
+A floor can only contain a maximum of one caped bullet (with one known exception outlined below). There is a 49.95% chance of one or more Red-Caped Bullet Kin appearing in a full run through the Forge, and a 62.46% chance on a run through Bullet Hell.
 
-**Troubleshooting Tips**
+Trivia
+Red-Caped Bullet Kin wield Magnums, but do not fire them or point them at the player.
+Red-Caped Bullet Kin do not deal contact damage unless they are jammed.
+Red-Caped Bullet Kin's design may be based on The Kid from I Wanna Be The Guy.
+Rooms created by the Drill can have a Red-Caped Bullet Kin spawn inside them, even if a Red-Caped Bullet Kin has already appeared on that floor.
+It's possible for Red-Caped Bullet Kin to appear in the Aimless Void and Secret Floors such as the Oubliette.
+Red-Caped Bullet Kin are not attacked by companions.
+Red-Caped Bullet Kin will teleport away if the room contains an enemy that cannot be killed, such as Gunreapers or Dead Blows.
+---The Paths through the Underground/Underdark---(9 days of travel)
+Wandering through the dark tunnels, the rushing sounds of the underground river begin to fade as it diverges from the cavern. You walk on for miles, the smell of hard water and wet earth. Natural chambers and cavern passways are chained together by the stretches of burrowed earth left in the wake of this massive worm-like creature. Clusters of crystal and other beautiful minerals occasionally line the walls and ceilings of the chambers, glittering with the little light you have to shove back the darkness.
 
-* If you encounter issues connecting to the VPN, ensure that your device meets the minimum system requirements and that your internet connection is stable.
-* If you are unable to access company resources, verify that you are connected to the VPN and that your device's IP address has changed to a company-assigned IP address.
-* If you continue to experience issues, contact the IT helpdesk for further assistance.
+Day 1 goes without issue... sleep.
 
-**Security Reminders**
+Day 2 – Ropers
+After a few miles of winding tunnel, you emerge in a smaller grotto of stalactites and stalagmites dripping with condensation. Unsure if the same underground river, or another water source, is nearby, you can see quite a bit of ground water does funnel down into this area. Seeking the next burrowed entrance left by the Kryn...
+---ENCOUNTER – Ropers x 2---
+Day 3 goes without issue...sleep.
 
-* Always keep your VPN client software up-to-date.
-* Never share your login credentials with anyone.
-* Avoid using public Wi-Fi or unsecured networks to access company resources via VPN.
+Day 4 - Kobold Trap
+Part way into the journey, the path becomes a protracted tunnel, snaking through the rock for hours without end. Eventually, you begin to notice other smaller tunnels intersecting with the burrowed canal. They appear partially ruined by this fresher tunnel, many of them now filled or partially collapsed.
 
-By following these steps, remote workers can securely connect to the company network and access company resources from anywhere. If you have any questions or issues, please contact the IT helpdesk for further assistance.
-**Troubleshooting Issues with Microsoft Office**
+They are no more than 2-3 feet wide, and numerous (dozens).
 
-This article provides steps to troubleshoot common issues with Microsoft Office applications, including Word, Excel, PowerPoint, and Outlook.
+In some of the rubble, you can find broken tools... a hammer, some soiled leather, a knife.
 
-**Step 1: Restart Microsoft Office**
+The tunnel finally seems to open into a small 15-foot high, 30ft long chamber of dirt and rock, where a rather rancid smell lingers. Glancing within, a handful of the smaller tunnels seem to intersect with it, and whomever enters first (if not Cad), their leg is SNARED by a noose and they must make a Dexterity Saving Throw (DC 15) or be lifted into the air to dangle from a small trap (restrained, DC 16 to escape). The snare also drags a cable tied to numerous pans and metal scraps, making a ruckus!
 
-Before proceeding with troubleshooting, try restarting the Microsoft Office application that is experiencing issues. This simple step can often resolve problems caused by temporary glitches or corrupted files.
+Chattering and tiny warcrys begin to fill the tunnel from all sides... as dozens of small kobolds rush into the room, and from behind!
 
-**Step 2: Check for Updates**
+-ENCOUNTER: Kobolds x 26, Kobold Inventor x 1-
+“Loud food! Loud meal!”
 
-Ensure that Microsoft Office is up-to-date. Open any Microsoft Office application, go to **File** > **Account**, and click **Update Options**. If updates are available, install them and restart the application.
+When seeing the group, they bark and growl. (if noticed, they appear rather fearful)
 
-**Step 3: Disable Add-ins**
+“You! Give us stuffs! Give us foods! Drop things you have, or we stab stab!”
 
-Add-ins can sometimes cause issues with Microsoft Office applications. To disable add-ins, follow these steps:
+If asked about tunnel “Big worm eat through! Bring ingoeth! In and out, gone quick, leave mess!”
 
-* Open the Microsoft Office application experiencing issues.
-* Go to **File** > **Options** > **Add-ins**.
-* Uncheck the boxes next to each add-in to disable them.
-* Click **OK** to save changes.
+They must parlay with them, avoiding a battle with a significant trade, or intimidation. Otherwise, a fight ensues! Either way, two kobolds are too scared and freeze up. They are brothers Spurt and Bex, scavenger kobolds. They are timid, but know the tunnels well...ish?
+Semantic and Textual Inference Chatbot Interface (STICI-Note) - Part 1: Planning and Prototyping
 
-**Step 4: Check for Corrupt Files**
+The start of my RAG to riches story
 
-Corrupt files can cause issues with Microsoft Office applications. Try opening a new, blank document to see if the issue persists. If the issue does not occur with a new document, it's possible that the original file is corrupt.
+STICI-note
 
-**Step 5: Check for Conflicting Programs**
+Published: Mon, 27 May 2024
 
-Other programs running on your computer can conflict with Microsoft Office applications. Try closing all other programs and background applications to see if the issue resolves.
+Last modified: Tue, 04 Jun 2024
 
-**Step 6: Check Office Configuration**
+Introduction
 
-Office configuration issues can cause problems with Microsoft Office applications. Try resetting Office configuration by following these steps:
+In this three-part series, I will be talking you through how I built the Semantic and Textual Inference Chatbot Interface (or STICI-note for short), a locally run RAG chatbot that uses unstructured text documents to enhance its responses. I came up with the name when I was discussing this project with a friend and asked him whether he had any ideas of what to call it. He said, "You should call it sticky because it sounds funny." The name... stuck...
 
-* Open the **Command Prompt** as an administrator.
-* Type the following command and press **Enter**: `officec2rclient.exe /uninstall`
-* Wait for the command to complete, then restart your computer.
+The code for this project is available here.
 
-**Step 7: Reinstall Microsoft Office**
+In this part, I will be planning the project from the tech stack to the techniques I will use, and I will be building a prototype. I will be discussing all of the choices I made and all of the choices I didn’t make, so I hope you find this insightful. Without further ado, let’s get started.
 
-If none of the above steps resolve the issue, try reinstalling Microsoft Office. Go to the **Control Panel**, select **Programs and Features**, and uninstall Microsoft Office. Then, reinstall Microsoft Office from the company's software portal or by contacting the IT department.
+The Problem
 
-**Additional Troubleshooting Tips**
+In my spare time, I occasionally play Dungeons and Dragons (DnD), a tabletop roleplaying game, and the stories are often told over several months, so details can be easily lost or forgotten over time. I can write notes on my laptop, but sometimes regular text search does not always provide me with the results I want when trying to search for specific notes. Some common examples include when a keyword is used often (e.g., I might write a lot about the actions of “Miles Lawson,” but only one segment of text might describe who he is, making searching for information on his character like finding a needle in a haystack) or when I simply cannot think of the correct keyword to search (e.g., what if I search “silver” instead of “gold”?).
 
-* Check for antivirus software conflicts, as some antivirus programs can interfere with Microsoft Office applications.
-* Ensure that your computer meets the system requirements for Microsoft Office.
-* If using a Microsoft Office template, try creating a new document from scratch to see if the issue persists.
-* If experiencing issues with a specific file, try opening the file on a different computer or in a different Microsoft Office application to isolate the problem.
+One day, I thought to myself that it’d be great if I had a tool that I could write my DnD notes into in an unstructured way and retrieve the information at any time with simple questions like “Who is Miles Lawson?” or “How much silver did I pay for a stay in ye olde tavern?”. This tool could be extended to be used for querying my notes on many things that are not available online (and therefore not searchable on a search engine), such as documentation on software that I build, notes on things that I’m learning about, such as AWS cloud infrastructure, and my diary of my deepest thoughts and feelings (at least I hope this is not available online). And thus, I decided to start working on STICI-note because the tools available online that do this cost money and run on the cloud, and I’m a tight-fisted guy who’s very sceptical about company promises to not sell your data.
 
-By following these steps, you should be able to troubleshoot and resolve common issues with Microsoft Office applications. If the issue persists, contact the IT department for further assistance.
-To set up a conference call on Cisco Webex, follow these steps:
+Narrowing Down Features
 
-**Step 1: Log in to Cisco Webex**
+As with all projects, I began by deciding what features I needed from this tool.
 
-Open a web browser and navigate to [company Webex URL]. Enter your company login credentials to access the Webex portal.
+Required features:
 
-**Step 2: Schedule a Meeting**
+Chatbot that you can ask questions and get answers in response (conversational memory is not required).
+Information is taken from an unstructured text file.
+It must be able to tell me if it doesn’t know the answer to my question.
+Fast.
+Efficient enough to run on my MacBook with other programs without any performance issues.
+Locally run for privacy and to ensure it will always be free, runnable, and consistent.
+Conversational memory is the memory of previous interactions given to an LLM. I decided not to require it as a feature because I just need the AI to answer my questions about the given text. It might be added as a feature in the future if I feel like I need it, but I do not plan to include it in the initial version of STICI-note.
 
-Click on the "Meetings" tab and select "Schedule a Meeting" from the drop-down menu. Fill in the required information, including:
+I knew that limiting it to running on my M1 MacBook with 8 GB of memory would greatly limit the performance of the tool as I would not be able to access truly large language models like GPT-4 and Claude 3 Opus, but I decided to do it anyway primarily for privacy but also to remove dependencies on external organisations to reduce the maintenance required for the tool in the future.
 
-* Meeting topic
-* Start and end time
-* Duration
-* Invitees (add email addresses or names from the company directory)
+Planning How to Evaluate and Compare Solutions
 
-**Step 3: Configure Audio Settings**
+If you don’t evaluate a solution, how do you know whether it’s an effective solution? You don’t.
 
-In the "Audio" section, select "Cisco Webex Audio" as the default audio type. You can also choose to allow participants to join via phone or VoIP.
+I next planned how I would evaluate different variations of the tool. While I do not evaluate anything in this part, I decided to sketch out a rough plan of how I would evaluate different solutions to encourage designing a testable AI in the same way that Test-Driven Development (TDD) encourages you to write testable code.
 
-**Step 4: Set Up Video Settings (Optional)**
+At first, I considered using Wikipedia pages as the data source and making my own questions about the content of the pages before I realised that this would lead to data leakage as many LLMs are trained on Wikipedia data.
 
-If you want to enable video conferencing, click on the "Video" tab and select "Cisco Webex Video" as the default video type. You can also choose to allow participants to join via video.
+An alternative dataset that I considered using for evaluation is the TREC 2024 RAG Corpus. This is a 28 GB corpus of text documents scraped from the internet. This corpus comes with thousands of queries, and the relevant documents for each query have been tagged as such. This is an amazing corpus for training and evaluating vector DataBase (DBs). Ignoring the fact that its questions do not come with answers, meaning I would have to write my own answers to use the document, there is one glaring flaw that makes it unusable for my use case: the documents are generally relatively short and describe a large variety of things. In my use case, I expect documents to be long and typically written about the same topic. If I were to use the corpus, I would have to stick documents together to present a realistic challenge in the semantic search of the vector DB vector space, but as each document will likely be about very different topics (e.g., one might be about aviation while another might be about economics), context retrieval would be unrealistically easy.
 
-**Step 5: Add Agenda and Notes (Optional)**
+Another alternative evaluation dataset that I considered using was a synthetic dataset. By following a method like this, I can use an LLM to generate synthetic context and questions automatically. I decided not to do this as I was concerned that this would produce bad-quality data with a massive bias towards things an LLM might already know, despite the use case expecting data that the LLM does not already know.
 
-You can add an agenda and notes to the meeting invitation by clicking on the "Agenda" tab. This information will be visible to all invitees.
+Because the documents in my evaluation corpus need to be thousands of words in length while staying relevant to a topic and they need to include information that will not be in the LLM’s training data, I decided that it would be best to manually curate a small dataset to evaluate my models. I plan to create documents from sources on the internet like videogame wikis, people’s blogs, and scientific journals and write my own pairs of questions and answers about them. I will then evaluate the difference between the model’s answer and my answer using a semantic similarity score.
 
-**Step 6: Send Invitations**
+RAG vs a Really Big Context Window vs Infinite Context
 
-Click "Schedule" to send the meeting invitation to all invitees. The invitation will include a link to join the meeting, as well as dial-in information for audio-only participants.
+To be able to answer questions about documents, the LLM would need to have access to information from the documents. I thought of three potential solutions for this:
 
-**Step 7: Start the Meeting**
+Retrieval Augmented Generation (RAG)
+An LLM with a really big context window
+An LLM that supports infinite context length
+Using an LLM with a really big context window such as Anthropic’s Claude 3 and Google’s Gemini 1.5 would certainly give me the best results as it would allow inference using completely unfiltered and uncompressed context as they can handle inputs of over 700,000 words, but these models are closed-source, and there is absolutely no chance of a model of this size fitting into my tiny M1 MacBook with 8 GB of memory.
 
-At the scheduled start time, click on the "Start" button to begin the conference call. As the host, you will be prompted to enter your audio and video settings before joining the meeting.
+By “an LLM that supports infinite context length,” I mean models like Mamba, Megalodon, and Infini-attention that compress context into a finite space. I decided not to use a model like this for two main reasons. Firstly, I have concerns about the performance. These architectures are in their infancy, and I do not expect them to outperform equivalently-sized traditional transformers. Secondly, as these architectures are very new and experimental, I do not expect much support for them, especially for Apple’s M-series of chips, which have their own graphics API, metal, that is required for GPU acceleration on my MacBook. These architectures are very interesting, and I would love to try them out, but for this project, I will have to settle for a more tried-and-tested approach.
 
-**Tips and Best Practices**
+The more tried and tested approach that I settled with is RAG. It is an incredibly popular technique for allowing LLMs to make use of information that is too big to fit in their context windows. This technique is known to perform very well, is incredibly well supported by LLM frameworks like LangChain and llamaindex, and works well in resource-constrained environments like on my laptop. Given all this, RAG was an obvious choice.
 
-* Make sure to test your audio and video settings before the meeting to ensure a smooth experience.
-* Encourage invitees to join the meeting 5-10 minutes early to troubleshoot any technical issues.
-* Use the "Mute" feature to minimize background noise and ensure clear audio.
-* Use the "Share" feature to share your screen or presentations with participants.
+Optimising Models for Limited Memory Environments
 
-**Troubleshooting**
+Next, I decided to investigate what kinds of optimisation strategies were available to use to try to fit bigger models into my M1 chip, as bigger LLMs typically perform better (I know, a groundbreaking revelation). To optimise the LLMs that I use, I considered four different techniques:
 
-* If you encounter issues joining the meeting, try restarting your browser or checking your internet connection.
-* If you experience audio or video issues during the meeting, try restarting your audio or video settings or contacting the IT helpdesk for assistance.
+Quantisation
+Model pruning
+Model/knowledge distillation
+AirLLM
+Quantisation is the most common method for making ML models smaller (and therefore faster and more capable of fitting into smaller spaces). It’s well known for improving speed and memory usage with little loss in accuracy in return, which makes it very popular for production-level AI. Quantising a model would require being able to fit it into your GPU, but I’m trying to quantise a model so that it can fit into my GPU, so without additional computing power, it’s a bit of a chicken and egg problem. Luckily, because this is such a popular technique, there are many quantised versions of large, high-performance LLMs available on HuggingFace that I can use, so there is no need to do this myself.
 
-By following these steps, you can successfully set up and host a conference call on Cisco Webex. If you have any further questions or issues, please contact the IT helpdesk for assistance.
-**Creating a Backup of Important Files**
+Model pruning is a less common method for reducing model sizes, but it is not a technique that one should overlook. This is a technique that can be combined with quantisation (or used on its own) to further reduce models at the expense of accuracy, but I do not plan to apply it myself due to its complexity and the fact that quantisation has the same effect. There are pruned models available on HuggingFace, but they don’t typically perform as well as equivalently sized quantised models, so I do not plan to use any unless they have particularly good evaluation results on a common LLM benchmark.
 
-Backing up important files is a crucial step in protecting your data from loss or corruption. This article will guide you through the process of creating a backup of your important files.
+Model/knowledge distillation is another size reduction technique that I considered. Unlike the previous techniques, model distillation can actually improve accuracy in domain-specific tasks while making a smaller model. As with quantisation and model pruning, I will use pre-distiled models, but I will not distil any models myself due to the computing power it requires (which admittedly is far less than training a model from scratch) and the complexity it would add to the project.
 
-**Step 1: Identify Important Files**
+The final optimisation technique that I considered, AirLLM, is quite different from the others in that instead of optimising the model weights, it optimises the model inference. Typically, LLMs are loaded onto the GPU in their entirety, requiring a lot of VRAM to run the larger, better-performing models. AirLLM is an open-source library that tackles this problem by using layered inference, an inference technique that involves loading layers individually when they are needed instead of all at once. This allows larger models to fit into smaller memory spaces without degrading performance. This method definitely has a high potential for accuracy, but I decided not to use it as I am concerned about compatibility and reliability issues as it is a new tool and the GitHub repo has been developed by a single person, so support for it is likely to be limited. Additionally, my M1 chip only has 8 GB of memory shared between the CPU and GPU, which is excellent for reducing data loading overhead costs, but it means that larger models that require AirLLM will be loaded directly from the SSD, so I am concerned that the model layer loading and unloading will become a massive bottleneck when doing inference on larger models. I will reconsider this option if I find that the models that can run on my MacBook do not have satisfactory accuracy.
 
-The first step in creating a backup is to identify the important files that need to be backed up. These may include documents, spreadsheets, presentations, and other files that are critical to your work. Make a list of the files and folders that you need to back up.
+What Models Even Run on My MacBook?
 
-**Step 2: Choose a Backup Method**
+After getting an idea of what kinds of optimisation techniques were available, I decided to conduct some tests to find out what LLMs would actually run on my MacBook. You could argue that since I am only building a prototype right now, I only need to find one LLM that performs well on my MacBook, but I decided to find five models instead to give me an idea of what kinds of models I will be able to use. In particular, I wanted to know how big the models I could run were and what precision the weights would likely be.
 
-There are several ways to back up your files, including:
+I tested models that I had heard were good or showed decent results on the Hugging Face H4 Open LLM Leaderboard. I found LM Studio incredibly useful for testing out LLMs without having to write any code, which saved me a lot of time. Below are the five suitable models that I found that could run on my MacBook and were fast enough to satisfy me:
 
-* **External Hard Drive**: Connect an external hard drive to your computer and copy your important files to it.
-* **Cloud Backup**: Use a cloud backup service such as OneDrive, Google Drive, or Dropbox to store your files online.
-* **Network Share**: Save your files to a network share or a shared drive on your company's network.
-* **USB Drive**: Use a USB drive to store your important files.
+tinyllama-1.1b-chat-v1.0 Q6_K
+Phi 3 Q4_K_M
+bartowski/dolphin-2.8-experiment26-7b-GGUF Q3_K_L
+mgonzs13/Mistroll-7B-v2.2-GGU
+QuantFactory/Meta-Llama-3-8B-Instruct Q3_K_M
+These models range from 1.17 GB up to 4.02 GB in size. I chose not to use any models that were any larger than 4 GB, as with only 8 GB of memory available, I expect that models that are any bigger would seriously impact the other applications that the user (i.e., me) is running on their device.
 
-Choose a backup method that works best for you and your needs.
+I will likely test out more models than this while testing out different configurations for the tool, but for the prototype, this is enough.
 
-**Step 3: Connect Your Backup Device**
+A Model Without a Framework is Like a Car Engine Without a Chassis
 
-If you are using an external hard drive or USB drive, connect it to your computer. If you are using a cloud backup service, log in to your account and ensure that you have sufficient storage space.
+To run my models, I could have written a framework for loading, unloading, and executing the models, passing context and queries to the models, and integrating the vector DB (more on that later) with the inference model from scratch, but I didn’t because I’m not insane and I am not trying to learn how to make ML frameworks. A lot of university students (myself included) are conditioned to try to build things from scratch for fear of plagiarism and because they are used to building things from scratch as a learning exercise (a very effective one in my opinion), so it’s difficult to unlearn the DIY mindset, but it’s simply a lot quicker and a lot more reliable to use libraries than to reinvent the wheel. Saying that, I decided to use a relatively simple tech stack.
 
-**Step 4: Copy Your Files**
+Python was an obvious choice for me, given that I have a lot of experience with it and that it has an abundance of support for machine learning applications. I decided to use LangChain to orchestrate my RAG process from the vector DB to the inference, as it is a flexible tool for composing NLP pipelines. It is very popular and reliable, and it includes a lot of tools that make developing NLP applications easier. I considered using LlamaIndex as it is built more specifically for RAG applications, but LangChain is more general-purpose, which I expect will make it more extensible for times when I might want to add more features in the future. Additionally, I am more likely to use LangChain again for other applications in the future, so the experience will be more useful. I also considered using LitGPT, but I had some issues getting it to work with the M1 chip’s Metal Performance Shaders (MPS), so I decided not to use it for fear of incompatibility. LitGPT is also intended more for training and fine-tuning LLMs, so it is likely not the best tool for simply deploying them in an application.
 
-Copy your important files to your chosen backup device. Make sure to copy all the files and folders that you identified in Step 1.
+To run inference on my models, I will need another library to actually execute the model. As I am using a range of pre-trained models, I will mainly use HuggingFace’s transformers library and the Python bindings for llama.cpp library to load and execute models, as these provide simple interfaces for inference, and I don’t need the additional control that deep learning frameworks like TensorFlow, PyTorch, and JAX provide as I’m using pre-trained models. As I mentioned earlier, AirLLM is still on the table if I need better performance, but I will find out while evaluating models whether this is necessary.
 
-**Step 5: Verify Your Backup**
+Magnitude + Direction DBs
 
-Once you have copied your files, verify that they have been backed up successfully. Check the contents of your backup device to ensure that all files are present and can be opened.
+Since I was using RAG, I needed a vector DB. Deciding which one to use was the final step of the research and also the most difficult one, as vector DBs are the technology that I am least familiar with. For the vector DB, my main requirements were simple: it needed to be lightweight, locally runnable on a laptop, fast, and compatible with my MacBook. Lightweight and locally runnable sound like similar things, but I mean different things by each phrase. The locally runnable one is quite self-explanatory, but by lightweight, I mean quite minimal computation requirements that don’t add features like heavy amounts of redundancy and heavy caching, which are useful for large-scale systems, but will simply drain resources in my application that is designed to run alongside an LLM and the user’s other applications on 8 GB of memory shared between the CPU and GPU.
 
-**Step 6: Schedule Regular Backups**
+I considered sixteen different vector DBs, but there were three different solutions that stood out to me for my use case: Chroma, Qdrant, and Vespa. These were all lightweight vector DBs that fit all of my requirements, but I decided to pick Chroma out of the three of them because it has a very batteries included approach, which is very useful for getting an application working quickly.
 
-To ensure that your important files are always up to date, schedule regular backups. You can set up your backup software to run automatically at a specified time each day or week.
+Below is an overview of my planned tech stack. I did not include any UI, as there are many options for this, and I plan to decide on the UI when building the final product.
 
-**Additional Tips**
+The tech stack and data flow that I plan to use for STICI-note.
+The tech stack and data flow that I plan to use for STICI-note.
 
-* **Backup Frequency**: Aim to backup your important files at least once a week, or more frequently if you work with sensitive or critical data.
-* **Backup Location**: Store your backup device in a safe location, away from your computer and other electronic devices.
-* **Versioning**: Consider using a backup software that supports versioning, which allows you to keep multiple versions of your files in case you need to recover a previous version.
+Making the Prototype (A.K.A. the Easy Part)
 
-By following these steps, you can ensure that your important files are safely backed up and protected from loss or corruption.
-**Troubleshooting Issues with Company-Issued Tablets**
+The final step was to actually build the prototype/proof of concept (PoC) to find out whether this idea can actually be implemented using the tech stack that I have picked. I decided to implement it using the smallest of the 5 models that I had found earlier, tinyllama-1.1b-chat-v1.0 Q6_K, to minimise the chances of having any memory issues.
 
-This article provides step-by-step guidance for troubleshooting common issues with company-issued tablets. Please follow the steps outlined below to resolve the issue before escalating to advanced support.
+You can find my prototype code here.
 
-**Step 1: Power Cycle the Tablet**
+For the prototype, I decided to make very basic configurations for everything to develop it quickly, and I tested it by asking a question about Grace Hopper, one of the most influential programmers to have ever lived, in two versions of the prototype: one with Grace Hopper’s Wikipedia page in its vector DB and one with Alan Turing’s Wikipedia page in its vector DB.
 
-* Press and hold the power button until the tablet shuts down.
-* Wait for 30 seconds to allow any residual power to drain.
-* Press the power button again to turn the tablet back on.
-* Observe if the issue persists.
+The question was:
 
-**Step 2: Check for Software Updates**
+“What programming language was Grace Hopper known for creating?”
 
-* Ensure the tablet is connected to a stable internet connection.
-* Go to **Settings** > **System** > **System Update**.
-* Check for available software updates and install any pending updates.
-* Restart the tablet after installation.
+As expected, the version with Alan Turing’s Wikipedia page failed miserably, hallucinating its entire response:
 
-**Step 3: Restart in Safe Mode**
+Grace Hopper was a computer scientist who is best known for her work on developing an early version of BASIC, which was one of the first low-level programming languages designed for mainframe computers. Hopper worked at Digital Equipment Corporation (DEC) in the mid-1960s and was responsible for creating several key BASIC versions that were used by DEC's mainframe computers. In 1973, she left DEC to work on a new low-level programming language called PASCAL, which became one of the most popular programming languages of its time. However, her contributions to BASIC are still remembered today as it was one of the first widely used and easy-to-understand programming languages for mainframe computers.
 
-* Press and hold the power button until the tablet shuts down.
-* Press the power button again to turn the tablet back on.
-* Immediately hold down the **Volume Down** button until the tablet boots into safe mode.
-* Observe if the issue persists in safe mode.
+This behaviour of hallucinating will need to be fixed in the final product, likely through prompt engineering.
 
-**Step 4: Check for App-Related Issues**
+As expected, the version with Grace Hopper’s Wikipedia page gave a much more accurate response but it unexpectedly contained far more spelling errors:
 
-* Identify the app that is experiencing issues.
-* Go to **Settings** > **Apps** > **[App Name]**.
-* Clear the app's cache and data.
-* Restart the app to see if the issue is resolved.
+Grace Hopper is credited with creating the first computer programming languaige called FLOW-MATIC. This language was developed in 1954 and was based on English words. Hopper's work on this languaige led to a machine-indepenent programming language, COBOL, which used English words instead of symbols for input and output. Her compiler, A-0, also utilized the FLOW-MATIIC language as its basis for compiling programs into executable code. In 1952, Hopper published her first paper on the topic of compiler design, "The Compiler" in the IEEE Transactions on Computers, in which she discussed her work with A-0 and other programming languaiges.
 
-**Step 5: Perform a Factory Reset**
+Unfortunately, this response was not free from hallucinations either. Hopper’s A-0 compiler did not use the FLOW-MATIC programming language, and she never published a paper called “The Compiler” in IEEE Transactions on Computers (a real journal that is not mentioned in the Wikipedia page). It looks like hallucinations are likely to be a major issue for this tool, but that is a problem I will solve when refining the AI.
 
-* Go to **Settings** > **System** > **Advanced** > **Reset Options**.
-* Select **Erase all data (factory reset)**.
-* Follow the prompts to complete the reset process.
-* Note: This step will erase all data on the tablet, so ensure that all important data is backed up before proceeding.
+On the bright side, inference was ~120 tokens/second, so at least this model will output words much faster than I can read them.
 
-**Step 6: Check for Hardware Issues**
+Conclusion
 
-* Inspect the tablet for any signs of physical damage or wear.
-* Check the charging port and ensure it is free from debris.
-* Try using a different charging cable or power source.
+In this blog, I built a locally run prototype for my chatbot for querying unstructured text documents. It doesn’t have a UI, and it hallucinates a lot, but it is nonetheless capable of querying unstructured text.
 
-**Step 7: Gather Diagnostic Information**
+It’s such a shame that after I had done the research and written all of the code, while I was writing this blog, I read about llmware, a very promising Python framework for building RAG pipelines with small models (sound familiar?). It was even chosen for GitHub Accelerator 2024, a competition for open-source projects on GitHub where chosen projects are given funding, mentorship, and access to resources to help them grow their project. Since I had already built the prototype in LangChain, it didn’t make much sense to tear it down and rebuild it in a fancy new framework that wasn’t as tried-and-tested. I’d love to try the framework out one day if I build another RAG application after this one.
 
-* Go to **Settings** > **System** > **About Tablet**.
-* Take note of the tablet's operating system version, device ID, and any error messages.
-* Provide this information to advanced support if the issue cannot be resolved through these troubleshooting steps.
+In the next part of the STICI-note blog series, I will be building an evaluation suite to test and compare different inference models and vector DB configurations, so stay tuned and follow me on LinkedIn to be notified when it comes out!
+llmware
 
-If none of the above steps resolve the issue, please escalate the issue to advanced support, providing as much detail as possible about the problem and the steps taken so far.
-**Step 1: Plan Your Wireless Network**
+Building Enterprise RAG Pipelines with Small, Specialized Models
+llmware provides a unified framework for building LLM-based applications (e.g, RAG, Agents), using small, specialized models that can be deployed privately, integrated with enterprise knowledge sources safely and securely, and cost-effectively tuned and adapted for any business process.
 
-Before setting up a secure wireless network, plan your network infrastructure by identifying the number of users, devices, and access points required. Determine the type of encryption and authentication methods to be used. Consider the physical layout of your workspace and the range of your wireless signal.
+llmware has two main components:
 
-**Step 2: Choose a Secure Wireless Protocol**
+RAG Pipeline - integrated components for the full lifecycle of connecting knowledge sources to generative AI models; and
 
-Select a secure wireless protocol such as WPA2-PSK (AES) or WPA3-PSK (AES-256). Avoid using outdated protocols like WEP or WPA. Ensure that your devices and access points support the chosen protocol.
+50+ small, specialized models fine-tuned for key tasks in enterprise process automation, including fact-based question-answering, classification, summarization, and extraction.
 
-**Step 3: Set Up a Strong Password**
+By bringing together both of these components, along with integrating leading open source models and underlying technologies, llmware offers a comprehensive set of tools to rapidly build knowledge-based enterprise LLM applications.
 
-Create a strong password for your wireless network. The password should be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable passwords or common words.
+Most of our examples can be run without a GPU server - get started right away on your laptop.
 
-**Step 4: Configure Your Router**
+Join us on Discord | Watch Youtube Tutorials | Explore our Model Families on Huggingface
 
-Log in to your router's web interface using a secure connection (HTTPS). Change the default administrator password and network name (SSID). Enable WPA2-PSK or WPA3-PSK encryption and set the password created in Step 3. Save your changes.
+New to RAG? Check out the Fast Start video series
 
-**Step 5: Set Up a Guest Network (Optional)**
+Multi-Model Agents with SLIM Models - Intro-Video
 
-If you need to provide wireless access to guests or visitors, set up a separate guest network. This will isolate your main network from potential security risks. Configure the guest network with a different SSID and password.
+Intro to SLIM Function Call Models
+Can't wait? Get SLIMs right away:
 
-**Step 6: Configure Firewall Settings**
+from llmware.models import ModelCatalog
 
-Enable the firewall on your router and configure it to block incoming and outgoing traffic on unnecessary ports. Restrict access to your network by only allowing necessary incoming traffic.
+ModelCatalog().get_llm_toolkit()  # get all SLIM models, delivered as small, fast quantized tools
+ModelCatalog().tool_test_run("slim-sentiment-tool") # see the model in action with test script included
+Key features
+Writing code withllmware is based on a few main concepts:
 
-**Step 7: Set Up Quality of Service (QoS)**
+Model Catalog: Access all models the same way with easy lookup, regardless of underlying implementation.
+Library: ingest, organize and index a collection of knowledge at scale - Parse, Text Chunk and Embed.
+Query: query libraries with mix of text, semantic, hybrid, metadata, and custom filters.
+Prompt with Sources: the easiest way to combine knowledge retrieval with a LLM inference.
+RAG-Optimized Models - 1-7B parameter models designed for RAG workflow integration and running locally.
+Simple-to-Scale Database Options - integrated data stores from laptop to parallelized cluster.
+Agents with Function Calls and SLIM Models
+Start coding - Quick Start for RAG
+What's New?
+-Best New Small RAG Model - BLING finetune of Phi-3 - "bling-phi-3-gguf" - see the video
 
-Configure QoS settings on your router to prioritize critical network traffic, such as video conferencing or VoIP calls. This ensures that critical applications receive sufficient bandwidth.
+-Web Services with Agent Calls for Financial Research - end-to-end scenario - video and example
 
-**Step 8: Implement Network Segmentation**
+-Voice Transcription with WhisperCPP - getting_started, using_sample_files, and analysis_use_case with great_speeches_video
 
-Segment your network into different zones or subnets to restrict access to sensitive areas of your network. This limits the spread of malware or unauthorized access in case of a breach.
+-Phi-3 GGUF Streaming Local Chatbot with UI - setup your own Phi-3-gguf chatbot on your laptop in minutes - example with video
 
-**Step 9: Regularly Update Your Router's Firmware**
+-Small, specialized, function-calling Extract Model - introducing slim-extract - video and example
 
-Regularly check for and install firmware updates for your router to ensure you have the latest security patches and features.
+-LLM to Answer Yes/No questions - introducing slim-boolean model - video and example
 
-**Step 10: Monitor Your Network**
+-Natural Language Query to CSV End to End example - using slim-sql model - video and example and now using Custom Tables on Postgres example
 
-Regularly monitor your network for suspicious activity, such as unknown devices or unusual traffic patterns. Use network monitoring tools or work with your IT team to detect and respond to potential security incidents.
+-Multi-Model Agents with SLIM models - multi-step Agents with SLIMs on CPU - video - example
 
-By following these steps, you can set up a secure wireless network that protects your data and devices from unauthorized access. Remember to regularly review and update your network configuration to ensure ongoing security.
-**Resetting a Jammed Printer**
+-OCR Embedded Document Images Example - systematically extract text from images embedded in documents example
 
-**Step 1: Turn Off the Printer**
+-Enhanced Parser Functions for PDF, Word, Powerpoint and Excel - new text-chunking controls and strategies, extract tables, images, header text - example
 
-Immediately turn off the printer to prevent any further damage or paper jams. Locate the power button, usually found on the top or front of the printer, and press it to shut down the device.
+-Agent Inference Server - set up multi-model Agents over Inference Server example
 
-**Step 2: Open the Printer**
+-GGUF - Getting Started - check out examples - GGUF (example) and Videos video
 
-Locate the printer's access panel, which varies depending on the printer model. Common locations include the top, front, or back of the printer. Open the panel by pressing the release latch or sliding it open. This will give you access to the internal mechanisms.
+-Optimizing Accuracy of RAG Prompts - check out example and videos - part I and part II
 
-**Step 3: Identify and Remove Jammed Paper**
+Getting Started
+Step 1 - Install llmware - pip3 install llmware or pip3 install 'llmware[full]'
 
-Carefully inspect the printer's internal mechanisms to locate the jammed paper. Gently pull out any visible paper scraps or torn pieces. Be cautious not to touch any internal components or rollers, as oils from your skin can cause damage.
+note: starting with v0.3.0, we provide options for a core install (minimal set of dependencies) or full install (adds to the core with wider set of related python libraries).
+Step 2- Go to Examples - Get Started Fast with 100+ 'Cut-and-Paste' Recipes
+Step 3 - Tutorial Videos - check out our Youtube channel for high-impact 5-10 minute tutorials on the latest examples.
+✍Working with the llmware Github repository
+The llmware repo can be pulled locally to get access to all the examples, or to work directly with the latest version of the llmware code.
 
-**Step 4: Check for Obstructions**
+git clone git@github.com:llmware-ai/llmware.git
+We have provided a welcome_to_llmware automation script in the root of the repository folder. After cloning:
 
-Inspect the printer's paper path, including the paper tray, rollers, and print head, for any obstructions or debris. Remove any dust, dirt, or other blockages that may be contributing to the jam.
+On Windows command line: .\welcome_to_llmware_windows.sh
+On Mac / Linux command line: sh ./welcome_to_llmware.sh
+Alternatively, if you prefer to complete setup without the welcome automation script, then the next steps include:
 
-**Step 5: Realign the Paper Tray**
+install requirements.txt - inside the /llmware path - e.g., pip3 install -r llmware/requirements.txt
 
-If the paper tray was dislodged during the jam, realign it according to the manufacturer's instructions. Make sure it clicks securely into place.
+install requirements_extras.txt - inside the /llmware path - e.g., pip3 install -r llmware/requirements_extras.txt (Depending upon your use case, you may not need all or any of these installs, but some of these will be used in the examples.)
 
-**Step 6: Check and Clean the Print Head**
+run examples - copy one or more of the example .py files into the root project path. (We have seen several IDEs that will attempt to run interactively from the nested /example path, and then not have access to the /llmware module - the easy fix is to just copy the example you want to run into the root path).
 
-Check the print head for any blockages or dried ink. Gently clean the print head with a lint-free cloth or cotton swab, following the manufacturer's instructions.
+install vector db - no-install vector db options include milvus lite, chromadb, faiss and lancedb - which do not require a server install, but do require that you install the python sdk library for that vector db, e.g., pip3 install pymilvus, or pip3 install chromadb. If you look in examples/Embedding, you will see examples for getting started with various vector DB, and in the root of the repo, you will see easy-to-get-started docker compose scripts for installing milvus, postgres/pgvector, mongo, qdrant, neo4j, and redis.
 
-**Step 7: Reassemble the Printer**
+Note: we have seen recently issues with Pytorch==2.3 on some platforms - if you run into any issues, we have seen that uninstalling Pytorch and downleveling to Pytorch==2.1 usually solves the problem.
 
-Reassemble the printer in the reverse order of how you disassembled it. Make sure all panels and access doors are securely closed.
+Data Store Options
+Fast Start: use SQLite3 and ChromaDB (File-based) out-of-the-box - no install required
+Speed + Scale: use MongoDB (text collection) and Milvus (vector db) - install with Docker Compose
+Postgres: use Postgres for both text collection and vector DB - install with Docker Compose
+Mix-and-Match: LLMWare supports 3 text collection databases (Mongo, Postgres, SQLite) and 10 vector databases (Milvus, PGVector-Postgres, Neo4j, Redis, Mongo-Atlas, Qdrant, Faiss, LanceDB, ChromaDB and Pinecone)
+Meet our Models
+SLIM model series: small, specialized models fine-tuned for function calling and multi-step, multi-model Agent workflows.
+DRAGON model series: Production-grade RAG-optimized 6-7B parameter models - "Delivering RAG on ..." the leading foundation base models.
+BLING model series: Small CPU-based RAG-optimized, instruct-following 1B-3B parameter models.
+Industry BERT models: out-of-the-box custom trained sentence transformer embedding models fine-tuned for the following industries: Insurance, Contracts, Asset Management, SEC.
+GGUF Quantization: we provide 'gguf' and 'tool' versions of many SLIM, DRAGON and BLING models, optimized for CPU deployment.
+Using LLMs and setting-up API keys & secrets
+LLMWare is an open platform and supports a wide range of open source and proprietary models. To use LLMWare, you do not need to use any proprietary LLM - we would encourage you to experiment with SLIM, BLING, DRAGON, Industry-BERT, the GGUF examples, along with bringing in your favorite models from HuggingFace and Sentence Transformers.
 
-**Step 8: Power On and Test**
+If you would like to use a proprietary model, you will need to provide your own API Keys. API keys and secrets for models, aws, and pinecone can be set-up for use in environment variables or passed directly to method calls.
 
-Turn the printer back on and test it by printing a test page or a document. If the printer is still experiencing issues, refer to the manufacturer's troubleshooting guide or contact the IT helpdesk for further assistance.
+Roadmap - Where are we going ...
+Interested in contributing to llmware? Information on ways to participate can be found in our Contributors Guide. As with all aspects of this project, contributing is governed by our Code of Conduct.
 
-**Additional Tips:**
+Questions and discussions are welcome in our github discussions.
 
-* Regularly clean and maintain your printer to prevent paper jams and other issues.
-* Use high-quality paper that is designed for printing to reduce the likelihood of jams.
-* Avoid overloading the paper tray, as this can cause paper jams and other issues.
-* If you are unsure about how to reset a jammed printer or if the issue persists after following these steps, contact the IT helpdesk for assistance.
-**Configuring Email on an Android Device**
+Release notes and Change Log
+See also additional deployment/install release notes in wheel_archives
 
-This article provides step-by-step instructions on how to configure email on an Android device. Please follow the steps below to set up your email account on your Android device.
+Thursday, June 6 - v0.3.1-WIP
 
-**Prerequisites:**
+Added module 3 to Fast Start example series examples 7-9 on Agents & Function Calls
+Added reranker Jina model for in-memory semantic similarity RAG - see example
+Changes merged into main branch - expected next pypi release at end of week
+Tuesday, June 4 - v0.3.0
 
-* An Android device with a valid internet connection
-* A valid email account (company email or personal email)
-* Email account credentials (username and password)
+Added support for new Milvus Lite embedded 'no-install' database - see example.
+Added two new SLIM models to catalog and agent processes - 'q-gen' and 'qa-gen'
+Updated model class instantiation to provide more extensibility to add new classes in different modules
+New welcome_to_llmware.sh and welcome_to_llmware_windows.sh fast install scripts
+Enhanced Model class base with new configurable post_init and register methods
+Created InferenceHistory to track global state of all inferences completed
+Multiple improvements and updates to logging at module level
+Note: starting with v0.3.0, pip install provides two options - a base minimal install pip3 install llmware which will support most use cases, and a larger install pip3 install 'llmware[full]' with other commonly-used libraries.
+Wednesday, May 22 - v0.2.15
 
-**Step 1: Go to the Email App**
+Improvements in Model class handling of Pytorch and Transformers dependencies (just-in-time loading, if needed)
+Expanding API endpoint options and inference server functionality - see new client access options and server_launch
+Saturday, May 18 - v0.2.14
 
-* Locate the Email app on your Android device. It may be on the home screen or in the app drawer.
-* Tap on the Email app to open it.
+New OCR image parsing methods with example
+Adding first part of logging improvements (WIP) in Configs and Models.
+New embedding model added to catalog - industry-bert-loans.
+Updates to model import methods and configurations.
+Sunday, May 12 - v0.2.13
 
-**Step 2: Add a New Account**
+New GGUF streaming method with basic example and phi3 local chatbot
+Significant cleanups in ancillary imports and dependencies to reduce install complexity - note: the updated requirements.txt and setup.py files.
+Defensive code to provide informative warning of any missing dependencies in specialized parts of the code, e.g., OCR, Web Parser.
+Updates of tests, notice and documentation.
+OpenAIConfigs created to support Azure OpenAI.
+Sunday, May 5 - v0.2.12 Update
 
-* Tap on the "Add account" or "Add email account" button.
-* Select "Email" or "Corporate" as the account type, depending on your email provider.
-* Enter your email address and password in the required fields.
-* Tap "Next" to proceed.
+Launched "bling-phi-3" and "bling-phi-3-gguf" in ModelCatalog - newest and most accurate BLING/DRAGON model
+New long document summarization method using slim-summary-tool example
+New Office (Powerpoint, Word, Excel) sample files example
+Added support for Python 3.12
+Deprecated faiss and replaced with 'no-install' chromadb in Fast Start examples
+Refactored Datasets, Graph and Web Services classes
+Updated Voice parsing with WhisperCPP into Library
+Monday, April 29 - v0.2.11 Update
 
-**Step 3: Configure Server Settings**
+Updates to gguf libs for Phi-3 and Llama-3
+Added Phi-3 example and Llama-3 example and Quantized Versions to Model Catalog
+Integrated WhisperCPP Model class and prebuilt shared libraries - getting-started-example
+New voice sample files for testing - example
+Improved CUDA detection on Windows and safety checks for older Mac OS versions
+Monday, April 22 - v0.2.10 Update
 
-* The device will attempt to automatically configure the server settings. If it fails, you will need to enter the settings manually.
-* Tap on "Manual setup" or "Advanced setup" to enter the server settings manually.
-* Enter the following information:
-	+ Incoming server: [company email server or personal email server]
-	+ Port: [company email port or personal email port]
-	+ Security type: [company email security type or personal email security type]
-	+ Username: [your email address]
-	+ Password: [your email password]
-* Tap "Next" to proceed.
+Updates to Agent class to support Natural Language queries of Custom Tables on Postgres example
+New Agent API endpoint implemented with LLMWare Inference Server and new Agent capabilities example
+Tuesday, April 16 - v0.2.9 Update
 
-**Step 4: Configure Outgoing Server Settings**
+New CustomTable class to rapidly create custom DB tables in conjunction with LLM-based workflows.
+Enhanced methods for converting CSV and JSON/JSONL files into DB tables.
+See new examples Creating Custom Table example
+Tuesday, April 9 - v0.2.8 Update
 
-* Enter the following information:
-	+ Outgoing server: [company email server or personal email server]
-	+ Port: [company email port or personal email port]
-	+ Security type: [company email security type or personal email security type]
-	+ Username: [your email address]
-	+ Password: [your email password]
-* Tap "Next" to proceed.
+Office Parser (Word Docx, Powerpoint PPTX, and Excel XLSX) - multiple improvements - new libs + Python method.
+Includes: several fixes, improved text chunking controls, header text extraction and configuration options.
+Generally, new office parser options conform with the new PDF parser options.
+Please see Office Parsing Configs example
+Wednesday, April 3 - v0.2.7 Update
 
-**Step 5: Account Options**
+PDF Parser - multiple improvements - new libs + Python methods.
+Includes: UTF-8 encoding for European languages.
+Includes: Better text chunking controls, header text extraction and configuration options.
+Please see PDF Parsing Configs example for more details.
+Note: deprecating support for aarch64-linux (will use 0.2.6 parsers). Full support going forward for Linux Ubuntu20+ on x86_64 + with CUDA.
+Friday, March 22 - v0.2.6 Update
 
-* You may be prompted to configure additional account options, such as:
-	+ Sync frequency: Choose how often you want your device to sync with the email server.
-	+ Sync size: Choose the maximum size of emails to sync.
-	+ Delete email from server: Choose whether to delete emails from the server after syncing.
-* Tap "Next" to proceed.
+New SLIM models: summary, extract, xsum, boolean, tags-3b, and combo sentiment-ner.
+New logit and sampling analytics.
+New SLIM examples showing how to use the new models.
+Thursday, March 14 - v0.2.5 Update
 
-**Step 6: Account Setup Complete**
+Improved support for GGUF on CUDA (Windows and Linux), with new prebuilt binaries and exception handling.
+Enhanced model configuration options (sampling, temperature, top logit capture).
+Added full back-level support for Ubuntu 20+ with parsers and GGUF engine.
+Support for new Anthropic Claude 3 models.
+New retrieval methods: document_lookup and aggregate_text.
+New model: bling-stablelm-3b-tool - fast, accurate 3b quantized question-answering model - one of our new favorites.
+Wednesday, February 28 - v0.2.4 Update
 
-* You will be prompted to give your account a name and set it as the default account.
-* Tap "Done" to complete the setup.
+Major upgrade of GGUF Generative Model class - support for Stable-LM-3B, CUDA build options, and better control over sampling strategies.
+Note: new GGUF llama.cpp built libs packaged with build starting in v0.2.4.
+Improved GPU support for HF Embedding Models.
+Friday, February 16 - v0.2.3 Update
 
-**Troubleshooting Tips:**
+Added 10+ embedding models to ModelCatalog - nomic, jina, bge, gte, ember and uae-large.
+Updated OpenAI support >=1.0 and new text-3 embedding models.
+SLIM model keys and output_values now accessible in ModelCatalog.
+Updating encodings to 'utf-8-sig' to better handle txt/csv files with bom.
+Supported Operating Systems: MacOS (Metal and x86), Linux (x86 and aarch64), Windows
 
-* If you encounter any issues during the setup process, try restarting the Email app or your device.
-* Ensure that your email account credentials are correct and that your internet connection is stable.
-* If you are still experiencing issues, contact the IT helpdesk for further assistance.
+note on Linux: we test most extensively on Ubuntu 22 and now Ubuntu 20 and recommend where possible
+if you need another Linux version, please raise an issue - we will prioritize testing and ensure support.
+Supported Vector Databases: Milvus, Postgres (PGVector), Neo4j, Redis, LanceDB, ChromaDB, Qdrant, FAISS, Pinecone, Mongo Atlas Vector Search
 
-By following these steps, you should be able to successfully configure email on your Android device.
+Supported Text Index Databases: MongoDB, Postgres, SQLite
+
+Optional
+Docker
+
+To enable the OCR parsing capabilities, install Tesseract v5.3.3 and Poppler v23.10.0 native packages.
+
+Change Log
+Latest Updates - 19 Jan 2024 - llmware v0.2.0
+
+Added new database integration options - Postgres and SQlite
+Improved status update and parser event logging options for parallelized parsing
+Significant enhancements to interactions between Embedding + Text collection databases
+Improved error exception handling in loading dynamic modules
+Latest Updates - 15 Jan 2024: llmware v0.1.15
+
+Enhancements to dual pass retrieval queries
+Expanded configuration objects and options for endpoint resources
+Latest Updates - 30 Dec 2023: llmware v0.1.14
+
+Added support for Open Chat inference servers (compatible with OpenAI API)
+Improved capabilities for multiple embedding models and vector DB configurations
+Added docker-compose install scripts for PGVector and Redis vector databases
+Added 'bling-tiny-llama' to model catalog
+Latest Updates - 22 Dec 2023: llmware v0.1.13
+
+Added 3 new vector databases - Postgres (PG Vector), Redis, and Qdrant
+
+Improved support for integrating sentence transformers directly in the model catalog
+
+Improvements in the model catalog attributes
+
+Multiple new Examples in Models & Embeddings, including GGUF, Vector database, and model catalog
+
+17 Dec 2023: llmware v0.1.12
+
+dragon-deci-7b added to catalog - RAG-finetuned model on high-performance new 7B model base from Deci
+New GGUFGenerativeModel class for easy integration of GGUF Models
+Adding prebuilt llama_cpp / ctransformer shared libraries for Mac M1, Mac x86, Linux x86 and Windows
+3 DRAGON models packaged as Q4_K_M GGUF models for CPU laptop use (dragon-mistral-7b, dragon-llama-7b, dragon-yi-6b)
+4 leading open source chat models added to default catalog with Q4_K_M
+8 Dec 2023: llmware v0.1.11
+
+New fast start examples for high volume Document Ingestion and Embeddings with Milvus.
+New LLMWare 'Pop up' Inference Server model class and example script.
+New Invoice Processing example for RAG.
+Improved Windows stack management to support parsing larger documents.
+Enhancing debugging log output mode options for PDF and Office parsers.
+30 Nov 2023: llmware v0.1.10
+
+Windows added as a supported operating system.
+Further enhancements to native code for stack management.
+Minor defect fixes.
+24 Nov 2023: llmware v0.1.9
+
+Markdown (.md) files are now parsed and treated as text files.
+PDF and Office parser stack optimizations which should avoid the need to set ulimit -s.
+New llmware_models_fast_start.py example that allows discovery and selection of all llmware HuggingFace models.
+Native dependencies (shared libraries and dependencies) now included in repo to faciliate local development.
+Updates to the Status class to support PDF and Office document parsing status updates.
+Minor defect fixes including image block handling in library exports.
+17 Nov 2023: llmware v0.1.8
+
+Enhanced generation performance by allowing each model to specific the trailing space parameter.
+Improved handling for eos_token_id for llama2 and mistral.
+Improved support for Hugging Face dynamic loading
+New examples with the new llmware DRAGON models.
+14 Nov 2023: llmware v0.1.7
+
+Moved to Python Wheel package format for PyPi distribution to provide seamless installation of native dependencies on all supported platforms.
+ModelCatalog enhancements:
+OpenAI update to include newly announced ‘turbo’ 4 and 3.5 models.
+Cohere embedding v3 update to include new Cohere embedding models.
+BLING models as out-of-the-box registered options in the catalog. They can be instantiated like any other model, even without the “hf=True” flag.
+Ability to register new model names, within existing model classes, with the register method in ModelCatalog.
+Prompt enhancements:
+“evidence_metadata” added to prompt_main output dictionaries allowing prompt_main responses to be plug into the evidence and fact-checking steps without modification.
+API key can now be passed directly in a prompt.load_model(model_name, api_key = “[my-api-key]”)
+LLMWareInference Server - Initial delivery:
+New Class for LLMWareModel which is a wrapper on a custom HF-style API-based model.
+LLMWareInferenceServer is a new class that can be instantiated on a remote (GPU) server to create a testing API-server that can be integrated into any Prompt workflow.
+03 Nov 2023: llmware v0.1.6
+
+Updated packaging to require mongo-c-driver 1.24.4 to temporarily workaround segmentation fault with mongo-c-driver 1.25.
+Updates in python code needed in anticipation of future Windows support.
+27 Oct 2023: llmware v0.1.5
+
+Four new example scripts focused on RAG workflows with small, fine-tuned instruct models that run on a laptop (llmware BLING models).
+Expanded options for setting temperature inside a prompt class.
+Improvement in post processing of Hugging Face model generation.
+Streamlined loading of Hugging Face generative models into prompts.
+Initial delivery of a central status class: read/write of embedding status with a consistent interface for callers.
+Enhanced in-memory dictionary search support for multi-key queries.
+Removed trailing space in human-bot wrapping to improve generation quality in some fine-tuned models.
+Minor defect fixes, updated test scripts, and version update for Werkzeug to address dependency security alert.
+20 Oct 2023: llmware v0.1.4
+
+GPU support for Hugging Face models.
+Defect fixes and additional test scripts.
+13 Oct 2023: llmware v0.1.3
+
+MongoDB Atlas Vector Search support.
+Support for authentication using a MongoDB connection string.
+Document summarization methods.
+Improvements in capturing the model context window automatically and passing changes in the expected output length.
+Dataset card and description with lookup by name.
+Processing time added to model inference usage dictionary.
+Additional test scripts, examples, and defect fixes.
+06 Oct 2023: llmware v0.1.1
+
+Added test scripts to the github repository for regression testing.
+Minor defect fixes and version update of Pillow to address dependency security alert.
+02 Oct 2023: llmware v0.1.0 Initial release of llmware to open source!!
+Recipes
+This page includes code snippets or “recipes” for a variety of common tasks. Use them as building blocks or examples when making your own notebooks.
+
+In these recipes, each code block represents a cell.
+
+Control Flow
+Show an output conditionally
+Use cases. Hide an output until a condition is met (e.g., until algorithm parameters are valid), or show different outputs depending on the value of a UI element or some other Python object
+
+Recipe.
+
+Use an if expression to choose which output to show.
+
+# condition is a boolean, True of False
+condition = True
+"condition is True" if condition else None
+Run a cell on a timer
+Use cases.
+
+Load new data periodically, and show updated plots or other outputs. For example, in a dashboard monitoring a training run, experiment trial, real-time weather data, …
+
+Run a job periodically
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a mo.ui.refresh timer that fires once a second:
+
+refresh = mo.ui.refresh(default_interval="1s")
+# This outputs a timer that fires once a second
+refresh
+Reference the timer by name to make this cell run once a second
+
+import random
+
+# This cell will run once a second!
+refresh
+
+mo.md("#" + "" * random.randint(1, 10))
+Require form submission before sending UI value
+Use cases. UI elements automatically send their values to the Python when they are interacted with, and run all cells referencing the elements. This makes marimo notebooks responsive, but it can be an issue when the downstream cells are expensive, or when the input (such as a text box) needs to be filled out completely before it is considered valid. Forms let you gate submission of UI element values on manual confirmation, via a button press.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a submittable form.
+
+form = mo.ui.text(label="Your name").form()
+form
+Get the value of the form.
+
+form.value
+Stop execution of a cell and its descendants
+Use cases. For example, don’t run a cell or its descendants if a form is unsubmitted.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a submittable form.
+
+form = mo.ui.text(label="Your name").form()
+form
+Use mo.stop to stop execution when the form is unsubmitted.
+
+mo.stop(form.value is None, mo.md("Submit the form to continue"))
+
+mo.md(f"Hello, {form.value}!")
+Grouping UI elements together
+Create an array of UI elements
+Use cases. In order to synchronize UI elements between the frontend and backend (Python), marimo requires you to assign UI elements to global variables. But sometimes you don’t know the number of elements to make until runtime: for example, maybe you want o make a list of sliders, and the number of sliders to make depends on the value of some other UI element.
+
+You might be tempted to create a Python list of UI elements, such as l = [mo.ui.slider(1, 10) for i in range(number.value)]: however, this won’t work, because the sliders are not bound to global variables.
+
+For such cases, marimo provides the “higher-order” UI element mo.ui.array, which lets you make a new UI element out of a list of UI elements: l = mo.ui.array([mo.ui.slider(1, 10) for i in range(number.value)]). The value of an array element is a list of the values of the elements it wraps (in this case, a list of the slider values). Any time you interact with any of the UI elements in the array, all cells referencing the array by name (in this case, “l”) will run automatically.
+
+Recipe.
+
+Import packages.
+
+import marimo as mo
+Use mo.ui.array to group together many UI elements into a list.
+
+import random
+
+# instead of random.randint, in your notebook you'd use the value of
+# an upstream UI element or other Python object
+array = mo.ui.array([mo.ui.text() for i in range(random.randint(1, 10))])
+array
+Get the value of the UI elements using array.value
+
+array.value
+Create a dictionary of UI elements
+Use cases. Same as for creating an array of UI elements, but lets you name each of the wrapped elements with a string key.
+
+Recipe.
+
+Import packages.
+
+import marimo as mo
+Use mo.ui.dictionary to group together many UI elements into a list.
+
+import random
+
+# instead of random.randint, in your notebook you'd use the value of
+# an upstream UI element or other Python object
+dictionary = mo.ui.dictionary({str(i): mo.ui.text() for i in range(random.randint(1, 10))})
+dictionary
+Get the value of the UI elements using dictionary.value
+
+dictionary.value
+Embed a dynamic number of UI elements in another output
+Use cases. When you want to embed a dynamic number of UI elements in other outputs (like tables or markdown).
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Group the elements with mo.ui.dictionary or mo.ui.array, then retrieve them from the container and display them elsewhere.
+
+import random
+
+n_items = random.randint(2, 5)
+
+# Create a dynamic number of elements using `mo.ui.dictionary` and
+# `mo.ui.array`
+elements = mo.ui.dictionary(
+    {
+        "checkboxes": mo.ui.array([mo.ui.checkbox() for _ in range(n_items)]),
+        "texts": mo.ui.array(
+            [mo.ui.text(placeholder="task ...") for _ in range(n_items)]
+        ),
+    }
+)
+
+mo.md(
+    f"""
+    Here's a TODO list of {n_items} items\n\n
+    """
+    + "\n\n".join(
+        # Iterate over the elements and embed them in markdown
+        [
+            f"{checkbox} {text}"
+            for checkbox, text in zip(
+                elements["checkboxes"], elements["texts"]
+            )
+        ]
+    )
+)
+Get the value of the elements
+
+elements.value
+Create a hstack (or vstack) of UI elements with on_change handlers
+Use cases. Arrange a dynamic number of UI elements in a hstack or vstack, for example some number of buttons, and execute some side-effect when an element is interacted with, e.g. when a button is clicked.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create buttons in mo.ui.array and pass them to hstack – a regular Python list won’t work. Make sure to assign the array to a global variable.
+
+import random
+
+
+# Create a state object that will store the index of the
+# clicked button
+get_state, set_state = mo.state(None)
+
+# Create an mo.ui.array of buttons - a regular Python list won't work.
+buttons = mo.ui.array(
+    [
+        mo.ui.button(
+            label="button " + str(i), on_change=lambda v, i=i: set_state(i)
+        )
+        for i in range(random.randint(2, 5))
+    ]
+)
+
+mo.hstack(buttons)
+Get the state value
+
+get_state()
+Create a table column of buttons with on_change handlers
+Use cases. Arrange a dynamic number of UI elements in a column of a table, and execute some side-effect when an element is interacted with, e.g. when a button is clicked.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create buttons in mo.ui.array and pass them to mo.ui.table. Make sure to assign the table and array to global variables
+
+import random
+
+
+# Create a state object that will store the index of the
+# clicked button
+get_state, set_state = mo.state(None)
+
+# Create an mo.ui.array of buttons - a regular Python list won't work.
+buttons = mo.ui.array(
+    [
+        mo.ui.button(
+            label="button " + str(i), on_change=lambda v, i=i: set_state(i)
+        )
+        for i in range(random.randint(2, 5))
+    ]
+)
+
+# Put the buttons array into the table
+table = mo.ui.table(
+    {
+        "Action": ["Action Name"] * len(buttons),
+        "Trigger": list(buttons),
+    }
+)
+table
+Get the state value
+
+get_state()
+Create a form with multiple UI elements
+Use cases. Combine multiple UI elements into a form so that submission of the form sends all its elements to Python.
+
+Recipe.
+
+Import packages.
+
+import marimo as mo
+Use mo.ui.form and Html.batch to create a form with multiple elements.
+
+form = mo.md(
+   r"""
+   Choose your algorithm parameters:
+
+   - $\epsilon$: {epsilon}
+   - $\delta$: {delta}
+   """
+).batch(epsilon=mo.ui.slider(0.1, 1, step=0.1), delta=mo.ui.number(1, 10)).form()
+form
+Get the submitted form value.
+
+form.value
+Working with buttons
+Create a button that triggers computation when clicked
+Use cases. To trigger a computation on button click and only on button click, use mo.ui.run_button().
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a run button
+
+button = mo.ui.run_button()
+button
+Run something only if the button has been clicked.
+
+mo.stop(not button.value, "Click 'run' to generate a random number")
+
+import random
+random.randint(0, 1000)
+Create a counter button
+Use cases. A counter button, i.e. a button that counts the number of times it has been clicked, is a helpful building block for reacting to button clicks (see other recipes in this section).
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Use mo.ui.button and its on_click argument to create a counter button.
+
+# Initialize the button value to 0, increment it on every click
+button = mo.ui.button(value=0, on_click=lambda count: count + 1)
+button
+Get the button value
+
+button.value
+Create a toggle button
+Use cases. Toggle between two states using a button with a button that toggles between True and False. (Tip: you can also just use mo.ui.switch.)
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Use mo.ui.button and its on_click argument to create a toggle button.
+
+# Initialize the button value to False, flip its value on every click.
+button = mo.ui.button(value=False, on_click=lambda value: not value)
+button
+Toggle between two outputs using the button value.
+
+mo.md("True!") if button.value else mo.md("False!")
+Re-run a cell when a button is pressed
+Use cases. For example, you have a cell showing a random sample of data, and you want to resample on button press.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a button without a value, to function as a trigger.
+
+button = mo.ui.button()
+button
+Reference the button in another cell.
+
+# the button acts as a trigger: every time it is clicked, this cell is run
+button
+
+# Replace with your custom lgic
+import random
+random.randint(0, 100)
+Run a cell when a button is pressed, but not before
+Use cases. Wait for confirmation before executing downstream cells (similar to a form).
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a counter button.
+
+button = mo.ui.button(value=0, on_click=lambda count: count + 1)
+button
+Only execute when the count is greater than 0.
+
+# Don't run this cell if the button hasn't been clicked, using mo.stop.
+# Alternatively, use an if expression.
+mo.stop(button.value == 0)
+
+mo.md(f"The button was clicked {button.value} times")
+Reveal an output when a button is pressed
+Use cases. Incrementally reveal a user interface.
+
+Recipe.
+
+Import packages
+
+import marimo as mo
+Create a counter button.
+
+button = mo.ui.button(value=0, on_click=lambda count: count + 1)
+button
+Show an output after the button is clicked.
+
+mo.md("#" + "" * button.value) if button.value > 0 else None
+Caching
+Cache expensive computations
+Use case. Because marimo runs cells automatically as code and UI elements change, it can be helpful to cache expensive intermediate computations. For example, perhaps your notebook computes t-SNE, UMAP, or PyMDE embeddings, and exposes their parameters as UI elements. Caching the embeddings for different configurations of the elements would greatly speed up your notebook.
+
+Recipe.
+
+Use functools to cache function outputs given inputs.
+
+import functools
+
+@functools.cache
+def compute_predictions(problem_parameters):
+   # replace with your own function/parameters
+   ...
+Whenever compute_predictions is called with a value of problem_parameters it has not seen, it will compute the predictions and store them in a cache. The next time it is called with the same parameters, instead of recomputing the predictions, it will return the previously computed value from the cache.
+
+See our best practices guide to learn more.

@@ -43,7 +43,12 @@ if submit_button:
             chunks = result.get("chunks", [])
             pinecone_chunks = result.get("pinecone_chunks", [])
             qdrant_chunks = result.get("qdrant_chunks", [])
-
+            all_chunks = result.get("all_chunks", [])
+            st.subheader("📌 All Chunks")
+            for i, chunk in enumerate(all_chunks):
+                st.markdown(f"**Chunk {i+1}:**")
+                st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
+                st.markdown("---")
             # Compare Pinecone and Qdrant chunks side by side
             st.subheader("🔍 Pinecone vs. Qdrant Chunk Comparison")
             if pinecone_chunks and qdrant_chunks:
@@ -66,6 +71,11 @@ if submit_button:
             # Display extracted chunks
             st.subheader("📌 Extracted Chunks")
             for i, chunk in enumerate(chunks):
+                st.markdown(f"**Chunk {i+1}:**")
+                st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
+                st.markdown("---")
+            st.subheader("📌 All Chunks")
+            for i, chunk in enumerate(all_chunks):
                 st.markdown(f"**Chunk {i+1}:**")
                 st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
                 st.markdown("---")

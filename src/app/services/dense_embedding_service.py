@@ -39,7 +39,8 @@ class EmbeddingService:
                         inputs=batch,
                         parameters={
                             "input_type": "passage",
-                            "truncate": "END"
+                            "truncate": "END",
+                            "dimension" :  1024
                         }
                     )
                     e_tokens_used += embeddings.usage["total_tokens"]

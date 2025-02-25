@@ -8,6 +8,8 @@ class Settings(BaseSettings):
     MONGO_URI : str
     MONGODB_COLLECTION_NAME : str
     MONGODB_DB_NAME : str
+    RAGAS_APP_TOKEN : str
+    GEMINI_API_KEY : str
         
 
     class Config:
