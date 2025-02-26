@@ -17,11 +17,11 @@ async def create_upload_file(
     if not file:
         return {"message": "No upload file sent"}
     else:
-        chunks, pinecone_chunks, qdrant_chunks, all_chunks = await file_upload_controller.process_file(
+        chunks, pinecone_chunks, qdrant_chunks, all_chunks, retrieved_images = await file_upload_controller.process_file(
             file,
             int(chunk_size),
             int(chunk_overlap),
             query
         )
 
-        return {"filename": file.filename, "chunks": chunks, "pinecone_chunks": pinecone_chunks, "qdrant_chunks" : qdrant_chunks, "all_chunks" : all_chunks}
+        return {"filename": file.filename, "chunks": chunks, "dense_chunks": pinecone_chunks, "sparse_chunks" : qdrant_chunks, "all_chunks" : all_chunks, "retrieved_images" : retrieved_images}

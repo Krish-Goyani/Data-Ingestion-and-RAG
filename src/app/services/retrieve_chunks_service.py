@@ -48,7 +48,8 @@ class RetrieveChunksService:
                     results = await idx.query(
                         vector=embedding_result[0].values,
                         top_k=top_k,
-                        include_metadata=True
+                        include_metadata=True,
+                        namespace="textportion"
                     )
 
                     # Extract retrieved chunks
@@ -159,11 +160,11 @@ class RetrieveChunksService:
                     vector = self.query_emebedding_service.generate_query_embedding(query)
                     # Perform similarity search
                     results = await idx.query(
-                        sparse_vector= vector,
+                        sparse_vector =  vector,
                         top_k=top_k,
                         include_metadata=True,
                         include_values= False,
-                        namespace="MdPortion"
+                        
                     )
 
                     # Extract retrieved chunks
@@ -179,27 +180,29 @@ class RetrieveChunksService:
         Retrieves top-k most similar chunks to the user query from Pinecone.
         """
         async with PineconeAsyncio(api_key=settings.PINECONE_API_KEY) as pc:
-            if not await pc.has_index(self.sparse_index_name):
-                raise ValueError(f"Index '{self.sparse_index_name}' does not exist.")
+            if not await pc.has_index("idx001"):
+                raise ValueError(f"Index {'idx001'} does not exist.")
             
-            index_info = await pc.describe_index(name=self.sparse_index_name)
+            index_info = await pc.describe_index(name="idx001")
 
             try:
                 async with pc.IndexAsyncio(host=index_info.host) as idx:
-                    vector = self.query_emebedding_service.generate_query_embedding(query)
+                    vector = await self.generate_query_embedding(query)
                     # Perform similarity search
                     results = await idx.query(
-                        sparse_vector= vector,
+                        vector = vector,
                         top_k=top_k,
                         include_metadata=True,
                         include_values= False,
-                        namespace="ImagePortion"
+                        namespace="imgportion"
                     )
 
                     # Extract retrieved chunks
-                    retrieved_record_ids = [match["metadata"]["record_id"] for match in results["matches"]]
-                    await self.images_repository.fetch_base64_images(retrieved_record_ids)
+                    retrieved_record_ids = [match["metadata"]["record_id"] for match in results["matches"] if match["score"]>0.50]
                     
+                    
+                    retrieved_images  = await self.images_repository.fetch_base64_images(retrieved_record_ids)
+                    return retrieved_images
                     #return retrieved_chunks, results.usage["read_units"]
 
             except Exception as e:

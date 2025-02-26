@@ -1,5 +1,8 @@
 import streamlit as st
 import requests
+import base64
+from PIL import Image
+import io
 
 # Set the page layout
 st.set_page_config(page_title="Text Chunk Viewer", layout="wide")
@@ -10,7 +13,7 @@ st.title("📄 Text Chunk Viewer")
 # Create a form for file upload and processing
 with st.form(key='upload_form'):
     # File uploader within the form
-    uploaded_file = st.file_uploader("Upload a .txt file", type=["txt","pdf"])
+    uploaded_file = st.file_uploader("Upload a .txt or .pdf file", type=["txt", "pdf"])
 
     # User inputs for chunk size and overlap size within the form
     chunk_size = st.number_input("Chunk Size (Characters)", min_value=100, max_value=5000, value=700, step=100)
@@ -41,45 +44,56 @@ if submit_button:
 
             # Extract chunks from the response
             chunks = result.get("chunks", [])
-            pinecone_chunks = result.get("pinecone_chunks", [])
-            qdrant_chunks = result.get("qdrant_chunks", [])
+            dense_chunks = result.get("dense_chunks", [])
+            sparse_chunks = result.get("sparse_chunks", [])
             all_chunks = result.get("all_chunks", [])
-            st.subheader("📌 All Chunks")
-            for i, chunk in enumerate(all_chunks):
-                st.markdown(f"**Chunk {i+1}:**")
-                st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
-                st.markdown("---")
-            # Compare Pinecone and Qdrant chunks side by side
-            st.subheader("🔍 Pinecone vs. Qdrant Chunk Comparison")
-            if pinecone_chunks and qdrant_chunks:
-                col1, col2 = st.columns(2)
+            retrieved_images = result.get("retrieved_images", [])
 
-                with col1:
-                    st.markdown("### 🟢 Pinecone Retrieved Chunks")
-                    for i, chunk in enumerate(pinecone_chunks):
-                        st.text_area(f"Pinecone Chunk {i+1}", value=chunk, height=150, disabled=True)
-                        st.markdown("---")
-
-                with col2:
-                    st.markdown("### 🔵 Qdrant Retrieved Chunks")
-                    for i, chunk in enumerate(qdrant_chunks):
-                        st.text_area(f"Qdrant Chunk {i+1}", value=chunk, height=150, disabled=True)
-                        st.markdown("---")
-            else:
-                st.warning("No similar chunks found in Pinecone or Qdrant.")
-
-            # Display extracted chunks
-            st.subheader("📌 Extracted Chunks")
+            st.subheader("📌 Final Chunks")
             for i, chunk in enumerate(chunks):
                 st.markdown(f"**Chunk {i+1}:**")
                 st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
                 st.markdown("---")
+
+            st.subheader("🔍 Dense vs. Sparse Chunk Comparison")
+            if dense_chunks or sparse_chunks:
+                col1, col2 = st.columns(2)
+
+                with col1:
+                    st.markdown("### 🟢 Dense  Chunks")
+                    for i, chunk in enumerate(dense_chunks):
+                        st.text_area(f"Dense Chunk {i+1}", value=chunk, height=150, disabled=True)
+                        st.markdown("---")
+
+                with col2:
+                    st.markdown("### 🔵 Sparse Chunks")
+                    for i, chunk in enumerate(sparse_chunks):
+                        st.text_area(f"Sparse Chunk {i+1}", value=chunk, height=150, disabled=True)
+                        st.markdown("---")
+            else:
+                st.warning("No similar chunks found in Pinecone or Qdrant.")
+            
+            # Display retrieved images
+            if retrieved_images:
+                st.subheader("🖼 Retrieved Images")
+                for i, image_b64 in enumerate(retrieved_images):
+                    try:
+                        # Decode the base64 string into bytes
+                        image_bytes = base64.b64decode(image_b64)
+                        image = Image.open(io.BytesIO(image_bytes))
+                        st.image(image, caption=f"Image {i+1}")
+                    except Exception as e:
+                        st.error(f"Failed to load image {i+1}: {e}")
+            else:
+                st.info("No retrieved images available.")
+                
             st.subheader("📌 All Chunks")
             for i, chunk in enumerate(all_chunks):
                 st.markdown(f"**Chunk {i+1}:**")
                 st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
                 st.markdown("---")
 
+            
         else:
             st.error("Failed to process the file.")
     else:

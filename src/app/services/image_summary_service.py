@@ -88,7 +88,7 @@ class ImageSummaryService:
                     ]
 
                     # Upsert records into Pinecone
-                    await idx.upsert(vectors=records, namespace="ImgPortion")
+                    await idx.upsert(vectors=records, namespace="imgportion")
                 return records                    
             except Exception as e:
                 print(e) 

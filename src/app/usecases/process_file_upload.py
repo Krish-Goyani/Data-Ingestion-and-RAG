@@ -106,24 +106,24 @@ class FileUploadUsecase:
             await self.vector_db_service.pinecone_store_sparse_embeddings(chunks, sparse_embeddings)
             time.sleep(15)
             
-            
+            retrieved_images = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks_images(query, top_k=3)
+
             dense_chunks, embedding_tokens, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks(query, 10)
             #self.cost_tracker.add_read_units(read_units)
             #self.cost_tracker.add_embedding_tokens(embedding_tokens)
             sparse_chunks, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks_s(query, 10)
+            print(f"============{len(sparse_chunks)}")
             #self.cost_tracker.add_read_units(read_units)
             
             sorted_items, sorted_documents = self.rrf_service.fuse(dense_chunks, sparse_chunks)
             final_chunks = await self.re_ranking_service.re_ranker(query, sorted_documents)
             #self.cost_tracker.add_rerank_units(rerank_units)
-            
-            
-            response, llm_usage  = await self.llm_response_service.generate_response(final_chunks, query)
-            responses.append(response)
-            relevant_doc.append(final_chunks)
+                        
+            #response  = await self.llm_response_service.generate_response_gemini(final_chunks, query, retrieved_images)
+
+            #responses.append(response)
+            #relevant_doc.append(final_chunks)
             #self.cost_tracker.add_llm_tokens(llm_usage)
-            
-            
             
             #dense_embeddings,embedding_tokens  = await self.embedding_service.generate_embeddings(chunks)
             #self.cost_tracker.add_embedding_tokens(embedding_tokens)
@@ -135,7 +135,7 @@ class FileUploadUsecase:
                     
             #await self.cost_storage_repo.store_cost_details(self.cost_tracker.to_dict())
             self.delete_index.delete_all_index()
-            return 'final_chunks', 'pinecone_chunks', 'sparse_chunks', chunks
+            return final_chunks, dense_chunks, sparse_chunks, chunks, retrieved_images
         except Exception as e:
             print(e)
         

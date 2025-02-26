@@ -85,7 +85,7 @@ class VectorDBService:
                         ]
 
                         # Upsert records into Pinecone
-                        await idx.upsert(vectors=records, namespace="MdPortion")
+                        await idx.upsert(vectors=records, namespace="textportion")
                         print(f"Batch {i // self.batch_size + 1} upserted successfully.")
 
                         # Update total token usage

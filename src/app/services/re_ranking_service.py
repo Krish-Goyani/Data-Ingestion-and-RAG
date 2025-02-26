@@ -13,14 +13,14 @@ class ReRanker:
                 query= query,
                 documents= chunks,
                 return_documents= True,
-                top_n=5,
+                top_n=10,
                 parameters={
                     "truncate": "END"
                 }
             )
-        docs =    [entry["document"]["text"] for entry in results.data]
-        return docs
+        #docs =    [entry["document"]["text"] for entry in results.data]
+        #return docs
          
-        #return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data], results.usage["rerank_units"]
+        return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data] #, results.usage["rerank_units"]
         
         

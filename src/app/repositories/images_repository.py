@@ -40,4 +40,5 @@ class ImageMappingRepo:
         """
         cursor = self.collection.find({"record_id": {"$in": record_ids}})
         documents = await cursor.to_list(length=None)
-        return [doc["base64_image"] for doc in documents if "base64_image" in doc]
+        imgs = [doc["base64_image"] for doc in documents if "base64_image" in doc]
+        return imgs
