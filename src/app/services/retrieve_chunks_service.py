@@ -6,15 +6,17 @@ from src.app.config.settings import settings
 from pymilvus import AsyncMilvusClient, MilvusClient, DataType
 from src.app.services.sparse_embedding_service import SparseEmbeddingsService
 from fastapi import Depends
+from src.app.repositories.images_repository import ImageMappingRepo
 
 class RetrieveChunksService:
-    def __init__(self, query_embedding_service = Depends(SparseEmbeddingsService)):
+    def __init__(self, query_embedding_service = Depends(SparseEmbeddingsService), images_repository = Depends(ImageMappingRepo)):
         self.index_name = "idx001"
         self.collection_name = "rag_collection"
         self.qdrant_client = AsyncQdrantClient(url=settings.QDRANT_URL)
         self.milvus_async_client = None
         self.sparse_index_name = "sparse001"
         self.query_emebedding_service= query_embedding_service
+        self.images_repository = images_repository
         
 
     async def pinecone_retrieve_similar_chunks(self, query: str, top_k: int = 5):
@@ -160,12 +162,45 @@ class RetrieveChunksService:
                         sparse_vector= vector,
                         top_k=top_k,
                         include_metadata=True,
-                        include_values= False
+                        include_values= False,
+                        namespace="MdPortion"
                     )
 
                     # Extract retrieved chunks
                     retrieved_chunks = [match["metadata"]["text"] for match in results["matches"]]
                     return retrieved_chunks, results.usage["read_units"]
+
+            except Exception as e:
+                print(f"Error retrieving chunks: {e}")
+                return []
+            
+    async def pinecone_retrieve_similar_chunks_images(self, query: str, top_k: int = 3):
+        """
+        Retrieves top-k most similar chunks to the user query from Pinecone.
+        """
+        async with PineconeAsyncio(api_key=settings.PINECONE_API_KEY) as pc:
+            if not await pc.has_index(self.sparse_index_name):
+                raise ValueError(f"Index '{self.sparse_index_name}' does not exist.")
+            
+            index_info = await pc.describe_index(name=self.sparse_index_name)
+
+            try:
+                async with pc.IndexAsyncio(host=index_info.host) as idx:
+                    vector = self.query_emebedding_service.generate_query_embedding(query)
+                    # Perform similarity search
+                    results = await idx.query(
+                        sparse_vector= vector,
+                        top_k=top_k,
+                        include_metadata=True,
+                        include_values= False,
+                        namespace="ImagePortion"
+                    )
+
+                    # Extract retrieved chunks
+                    retrieved_record_ids = [match["metadata"]["record_id"] for match in results["matches"]]
+                    await self.images_repository.fetch_base64_images(retrieved_record_ids)
+                    
+                    #return retrieved_chunks, results.usage["read_units"]
 
             except Exception as e:
                 print(f"Error retrieving chunks: {e}")

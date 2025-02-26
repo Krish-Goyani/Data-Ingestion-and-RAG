@@ -55,7 +55,7 @@ class EmbeddingService:
                     # Update total token usage
                     total_tokens_used += batch_token_count
                     
-                return all_embeddings, e_tokens_used
+                return all_embeddings
             
             except Exception as e:
                 print(f"Error in generating embeddings: {e}")

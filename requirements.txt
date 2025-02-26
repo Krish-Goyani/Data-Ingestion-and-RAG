@@ -12,3 +12,5 @@ motor
 ragas
 langchain-google-genai
 langchain-groq
+google-genai
+pymupdf4llm

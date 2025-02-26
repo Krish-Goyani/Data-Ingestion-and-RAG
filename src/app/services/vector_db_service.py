@@ -12,6 +12,7 @@ from pinecone import Pinecone, SparseValues, Vector
 import uuid
 import time
 
+
 class VectorDBService:
     def __init__(self) -> None:
         self.index_name = "idx001"
@@ -84,7 +85,7 @@ class VectorDBService:
                         ]
 
                         # Upsert records into Pinecone
-                        await idx.upsert(vectors=records)
+                        await idx.upsert(vectors=records, namespace="MdPortion")
                         print(f"Batch {i // self.batch_size + 1} upserted successfully.")
 
                         # Update total token usage

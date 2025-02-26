@@ -38,6 +38,20 @@ class MongoDB:
             raise HTTPException(
                 status_code=500,
                 detail=f"Unable to access auth collection: {str(e)}"
+            )
+            
+    def get_images_collection(self):
+        try:
+            if not self.mongodb_client:
+                raise HTTPException(
+                    status_code=503,
+                    detail="MongoDB client is not connected."
+                )
+            return self.mongodb_client["images_db"]["images_collection"]
+        except Exception as e:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Unable to access auth collection: {str(e)}"
             )     
                  
     def disconnect(self):

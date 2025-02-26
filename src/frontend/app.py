@@ -10,7 +10,7 @@ st.title("📄 Text Chunk Viewer")
 # Create a form for file upload and processing
 with st.form(key='upload_form'):
     # File uploader within the form
-    uploaded_file = st.file_uploader("Upload a .txt file", type=["txt"])
+    uploaded_file = st.file_uploader("Upload a .txt file", type=["txt","pdf"])
 
     # User inputs for chunk size and overlap size within the form
     chunk_size = st.number_input("Chunk Size (Characters)", min_value=100, max_value=5000, value=700, step=100)

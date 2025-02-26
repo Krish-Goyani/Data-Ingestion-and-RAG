@@ -14,10 +14,13 @@ from src.app.services.delete_index import DeleteIndex
 import time
 from src.testing.ragas_testing import RAGAsTest
 import pandas as pd
+from src.app.services.unstructured_api_service import UnstructuredAPIService
+from src.app.services.image_summary_service import ImageSummaryService
+
 
 class FileUploadUsecase:
     def __init__(self, file_conversion_service = Depends(FileConversionService), text_splitter = Depends(TextSplitters), vector_db_service = Depends(VectorDBService), retrieve_chunks_service = Depends(RetrieveChunksService), llm_response_service = Depends(LLMResponseService), embedding_service  =Depends(EmbeddingService), sprase_embedding_service = Depends(SparseEmbeddingsService), rrf_service= Depends(ReciprocalRankFusionService),
-                 re_ranking_service= Depends(ReRanker), cost_tracker = Depends(CostTracker), cost_storage_repo = Depends(CostStorageRepo), delete_index = Depends(DeleteIndex), ragas_tesing = Depends(RAGAsTest)) -> None:
+                 re_ranking_service= Depends(ReRanker), cost_tracker = Depends(CostTracker), cost_storage_repo = Depends(CostStorageRepo), delete_index = Depends(DeleteIndex), ragas_tesing = Depends(RAGAsTest), unstructured_api_service = Depends(UnstructuredAPIService), image_summary_service = Depends(ImageSummaryService)) -> None:
         
         self.file_conversion_service = file_conversion_service
         self.text_splitter = text_splitter
@@ -32,6 +35,9 @@ class FileUploadUsecase:
         self.cost_storage_repo = cost_storage_repo
         self.delete_index = delete_index
         self.ragas_tesing =  ragas_tesing
+        self.unstructured_api_service = unstructured_api_service
+        self.image_summary_service = image_summary_service
+        
         
     def get_questions_answers_and_text(self,document_indices,
                                     multi_passage_file='RAG_Evaluation_Dataset/multi_passage_answer_questions.csv',
@@ -84,41 +90,40 @@ class FileUploadUsecase:
         return questions, answers, document_text
     
     
-    async def process_file(self,file_bytes : bytes,chunk_size,chunk_overlap, queries):
+    async def process_file(self,file_bytes : bytes,chunk_size,chunk_overlap, query):
         try:
-        
-            queries, references, document_text = self.get_questions_answers_and_text(document_indices=[0,2])
-            
-            #text =  await self.file_conversion_service.convert_to_text(file_bytes)
-            chunks =  self.text_splitter.recursive_text_splitter(document_text, chunk_size, chunk_overlap)
+            text =  await self.file_conversion_service.convert_to_makedown(file_bytes)
+            chunks =  self.text_splitter.hierarchical_markdown_chunker(text, chunk_size, chunk_overlap)
             
             embedding_tokens = await self.vector_db_service.pinecone_generate_and_store_embeddings(chunks)
             time.sleep(15)
             #self.cost_tracker.add_embedding_tokens(embedding_tokens)
+            
+            base64s =  await self.unstructured_api_service.process_file(file_bytes)
+            await self.image_summary_service.summarize_images(base64s)
+            
             sparse_embeddings = self.sprase_embedding_service.generate_sparse_embeddings(chunks)
             await self.vector_db_service.pinecone_store_sparse_embeddings(chunks, sparse_embeddings)
             time.sleep(15)
             
-            responses = []
-            relevant_doc = []
-            for query in queries:
-                dense_chunks, embedding_tokens, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks(query, 10)
-                #self.cost_tracker.add_read_units(read_units)
-                #self.cost_tracker.add_embedding_tokens(embedding_tokens)
-                sparse_chunks, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks_s(query, 10)
-                #self.cost_tracker.add_read_units(read_units)
-                
-                sorted_items, sorted_documents = self.rrf_service.fuse(dense_chunks, sparse_chunks)
-                final_chunks = await self.re_ranking_service.re_ranker(query, sorted_documents)
-                #self.cost_tracker.add_rerank_units(rerank_units)
-                
-                
-                response, llm_usage  = await self.llm_response_service.generate_response(final_chunks, query)
-                responses.append(response)
-                relevant_doc.append(final_chunks)
-                #self.cost_tracker.add_llm_tokens(llm_usage)
-                
-            self.ragas_tesing.testing_loop(queries, relevant_doc , responses, references)
+            
+            dense_chunks, embedding_tokens, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks(query, 10)
+            #self.cost_tracker.add_read_units(read_units)
+            #self.cost_tracker.add_embedding_tokens(embedding_tokens)
+            sparse_chunks, read_units = await self.retrieve_chunks_service.pinecone_retrieve_similar_chunks_s(query, 10)
+            #self.cost_tracker.add_read_units(read_units)
+            
+            sorted_items, sorted_documents = self.rrf_service.fuse(dense_chunks, sparse_chunks)
+            final_chunks = await self.re_ranking_service.re_ranker(query, sorted_documents)
+            #self.cost_tracker.add_rerank_units(rerank_units)
+            
+            
+            response, llm_usage  = await self.llm_response_service.generate_response(final_chunks, query)
+            responses.append(response)
+            relevant_doc.append(final_chunks)
+            #self.cost_tracker.add_llm_tokens(llm_usage)
+            
+            
             
             #dense_embeddings,embedding_tokens  = await self.embedding_service.generate_embeddings(chunks)
             #self.cost_tracker.add_embedding_tokens(embedding_tokens)
