@@ -24,5 +24,5 @@ async def generate_response(
     query: str = Form(...),
     file_upload_controller=Depends(FileuploadController)
 ):
-    response, final_chunks, retrieved_images = await file_upload_controller.generate_response(query)
-    return {"response": response, "final_chunks": final_chunks, "retrieved_images" : retrieved_images}
+    response, final_chunks = await file_upload_controller.generate_response(query)
+    return {"response": response, "final_chunks": final_chunks}

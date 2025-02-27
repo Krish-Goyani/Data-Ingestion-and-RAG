@@ -43,7 +43,7 @@ class VectorDBService:
             else:
                 print(f"Index '{self.index_name}' already exists.")
                 
-         
+        
             index_info = await pc.describe_index(name= self.index_name)  
             
             try:    
@@ -93,7 +93,7 @@ class VectorDBService:
                 return e_total_tokens_used                    
             except Exception as e:
                 print(e) 
-                           
+
     async def qdrant_setup_collection(self, vector_size: int):
         """
         Ensures the collection exists in Qdrant. Creates it if missing.
@@ -213,7 +213,7 @@ class VectorDBService:
             else:
                 print(f"Index '{self.sparse_index_name}' already exists.")
                 
-         
+        
             index_info = await pc.describe_index(name= self.sparse_index_name)  
             
             try:    

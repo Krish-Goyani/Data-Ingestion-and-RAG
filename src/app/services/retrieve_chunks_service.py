@@ -198,8 +198,8 @@ class RetrieveChunksService:
                     )
 
                     # Extract retrieved chunks
-                    retrieved_record_ids = [match["metadata"]["record_id"] for match in results["matches"] if match["score"]>0.50]
-                    
+                    retrieved_record_ids = [match["metadata"]["record_id"] for match in results["matches"] if match["score"]>0.45]
+                    print(f"============{len(retrieved_record_ids)}")
                     
                     retrieved_images  = await self.images_repository.fetch_base64_images(retrieved_record_ids)
                     return retrieved_images

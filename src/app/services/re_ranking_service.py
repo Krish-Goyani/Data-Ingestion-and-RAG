@@ -13,7 +13,7 @@ class ReRanker:
                 query= query,
                 documents= chunks,
                 return_documents= True,
-                top_n=10,
+                top_n=3,
                 parameters={
                     "truncate": "END"
                 }
