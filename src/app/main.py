@@ -14,7 +14,7 @@ except:
 
 from fastapi import FastAPI, UploadFile
 from pydantic import BaseModel
-from src.app.routes.upload_route import file_upload_router
+from src.app.routes.rag_route import file_upload_router
 from src.app.config.database import mongodb_database
 from contextlib import asynccontextmanager
 

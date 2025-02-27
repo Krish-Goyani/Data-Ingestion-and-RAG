@@ -102,7 +102,6 @@ class LLMResponseService:
         
         # Prepare the contents list for Gemini API.
         contents = [prompt]
-        print(prompt)
         # If provided, add each image as a Gemini types.Part.
         if base64_images:
             for b64 in base64_images:
@@ -113,7 +112,6 @@ class LLMResponseService:
                 except Exception as e:
                     # Log the error and continue processing other images.
                     print(f"Error processing an image: {e}")
-        print(f"===================={len(contents)}")
         # Call the Gemini API asynchronously.
         response = await self.client.aio.models.generate_content(
             model=self.model,

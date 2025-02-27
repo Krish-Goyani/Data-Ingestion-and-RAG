@@ -1,100 +1,100 @@
 import streamlit as st
 import requests
 import base64
-from PIL import Image
-import io
 
-# Set the page layout
-st.set_page_config(page_title="Text Chunk Viewer", layout="wide")
+# Set page config and title.
+st.set_page_config(page_title="RAG Application", layout="wide")
+st.title("RAG Application Frontend")
 
-# Title of the app
-st.title("📄 Text Chunk Viewer")
+# Backend endpoint URLs
+FILE_PROCESS_ENDPOINT = "http://127.0.0.1:8000/upload/"
+QUERY_RESPONSE_ENDPOINT = "http://127.0.0.1:8000/query/"
 
-# Create a form for file upload and processing
-with st.form(key='upload_form'):
-    # File uploader within the form
-    uploaded_file = st.file_uploader("Upload a .txt or .pdf file", type=["txt", "pdf"])
-
-    # User inputs for chunk size and overlap size within the form
-    chunk_size = st.number_input("Chunk Size (Characters)", min_value=100, max_value=5000, value=700, step=100)
-    chunk_overlap = st.number_input("Chunk Overlap (Characters)", min_value=0, max_value=1000, value=20, step=50)
-
-    # User query input
-    user_query = st.text_input("Enter your query to retrieve similar chunks", "")
-
-    # Submit button for the form
-    submit_button = st.form_submit_button(label='Process File')
-
-# Check if the form is submitted and a file is uploaded
-if submit_button:
-    if uploaded_file is not None and user_query:
-        st.success(f"Uploaded: {uploaded_file.name}")
-
-        # Send the file along with chunk size, overlap, and user query to FastAPI backend
-        files = {"file": uploaded_file.getvalue()}
-        params = {
-            "chunk_size": int(chunk_size),
-            "chunk_overlap": int(chunk_overlap),
-            "query": user_query
-        }
-        response = requests.post("http://127.0.0.1:8000/upload/", files=files, params=params)
-
-        if response.status_code == 200:
-            result = response.json()
-
-            # Extract chunks from the response
-            chunks = result.get("chunks", [])
-            dense_chunks = result.get("dense_chunks", [])
-            sparse_chunks = result.get("sparse_chunks", [])
-            all_chunks = result.get("all_chunks", [])
-            retrieved_images = result.get("retrieved_images", [])
-
-            st.subheader("📌 Final Chunks")
-            for i, chunk in enumerate(chunks):
-                st.markdown(f"**Chunk {i+1}:**")
-                st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
-                st.markdown("---")
-
-            st.subheader("🔍 Dense vs. Sparse Chunk Comparison")
-            if dense_chunks or sparse_chunks:
-                col1, col2 = st.columns(2)
-
-                with col1:
-                    st.markdown("### 🟢 Dense  Chunks")
-                    for i, chunk in enumerate(dense_chunks):
-                        st.text_area(f"Dense Chunk {i+1}", value=chunk, height=150, disabled=True)
-                        st.markdown("---")
-
-                with col2:
-                    st.markdown("### 🔵 Sparse Chunks")
-                    for i, chunk in enumerate(sparse_chunks):
-                        st.text_area(f"Sparse Chunk {i+1}", value=chunk, height=150, disabled=True)
-                        st.markdown("---")
-            else:
-                st.warning("No similar chunks found in Pinecone or Qdrant.")
-            
-            # Display retrieved images
-            if retrieved_images:
-                st.subheader("🖼 Retrieved Images")
-                for i, image_b64 in enumerate(retrieved_images):
-                    try:
-                        # Decode the base64 string into bytes
-                        image_bytes = base64.b64decode(image_b64)
-                        image = Image.open(io.BytesIO(image_bytes))
-                        st.image(image, caption=f"Image {i+1}")
-                    except Exception as e:
-                        st.error(f"Failed to load image {i+1}: {e}")
-            else:
-                st.info("No retrieved images available.")
-                
-            st.subheader("📌 All Chunks")
-            for i, chunk in enumerate(all_chunks):
-                st.markdown(f"**Chunk {i+1}:**")
-                st.text_area(f"Chunk {i+1}", value=chunk, height=200, max_chars=chunk_size, disabled=True)
-                st.markdown("---")
-
-            
+# ------------------------------
+# Step 1: File Upload & Processing
+# ------------------------------
+if "file_processed" not in st.session_state:
+    st.subheader("Step 1: Upload File and Process")
+    with st.form(key="file_upload_form"):
+        uploaded_file = st.file_uploader("Upload a file (.txt or .pdf)", type=["txt", "pdf"])
+        chunk_size = st.number_input("Chunk Size (Characters)", min_value=100, max_value=5000, value=700, step=100)
+        chunk_overlap = st.number_input("Chunk Overlap (Characters)", min_value=0, max_value=1000, value=20, step=50)
+        submit_file = st.form_submit_button("Process File")
+    
+    if submit_file:
+        if uploaded_file is None:
+            st.error("Please upload a file")
         else:
-            st.error("Failed to process the file.")
-    else:
-        st.warning("Please upload a file and enter a query before submitting.")
+            st.info("Processing file, please wait...")
+            # Build form data and file payload.
+            data = {
+                "chunk_size": str(chunk_size),
+                "chunk_overlap": str(chunk_overlap)
+            }
+            files = {
+                "file": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)
+            }
+            try:
+                response = requests.post(url=FILE_PROCESS_ENDPOINT, data=data, files=files)
+                if response.status_code == 200:
+                    result = response.json()
+                    st.session_state.file_processed = True
+                    st.session_state.process_result = result
+                    st.success("File processed successfully!")
+                else:
+                    st.error("File processing failed with status code " + str(response.status_code))
+            except Exception as e:
+                st.error(f"Error processing file: {e}")
+
+# ------------------------------
+# Step 2: Chat Interface for Query Response
+# ------------------------------
+#st.session_state.file_processed = True
+if "file_processed" in st.session_state:
+    st.subheader("Step 2: Ask Your Query")
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+    
+    # Display previous chat messages.
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+    
+    # Chat input field.
+    prompt = st.chat_input("Enter your query")
+    if prompt:
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        
+        # Send the query as form data.
+        data = {"query": prompt}
+        try:
+            response = requests.post(url=QUERY_RESPONSE_ENDPOINT, data=data)
+            if response.status_code == 200:
+                data_json = response.json()
+                answer = data_json.get("response", "No answer provided.")
+                final_chunks = data_json.get("final_chunks", [])
+                retrieved_images = data_json.get("retrieved_images", [])
+                
+                st.session_state.messages.append({"role": "assistant", "content": answer})
+                with st.chat_message("assistant"):
+                    st.markdown(answer)
+                
+                if final_chunks:
+                    st.subheader("Final Re-Ranked Chunks:")
+                    for i, chunk in enumerate(final_chunks):
+                        st.markdown(f"**Chunk {i+1}:** {chunk}")
+                
+                if retrieved_images:
+                    st.subheader("Retrieved Images:")
+                    for i, img_b64 in enumerate(retrieved_images):
+                        try:
+                            img_data = base64.b64decode(img_b64)
+                            st.image(img_data, caption=f"Image {i+1}", use_column_width=True)
+                        except Exception as e:
+                            st.error(f"Error decoding image {i+1}: {e}")
+            else:
+                st.error("Query response failed with status code " + str(response.status_code))
+        except Exception as e:
+            st.error(f"Error generating query response: {e}")

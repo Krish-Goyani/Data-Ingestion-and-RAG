@@ -18,9 +18,9 @@ class ReRanker:
                     "truncate": "END"
                 }
             )
-        #docs =    [entry["document"]["text"] for entry in results.data]
+        docs =    [entry["document"]["text"] for entry in results.data]
         #return docs
          
-        return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data] #, results.usage["rerank_units"]
+        return [{"score" : entry["score"], "document": entry["document"]["text"]} for entry in results.data], docs #, results.usage["rerank_units"]
         
         

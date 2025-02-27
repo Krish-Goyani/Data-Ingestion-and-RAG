@@ -2,7 +2,7 @@ fastapi[standard]
 groq==0.13.0
 pydantic
 pydantic-settings
-streamlit
+streamlit==1.40.2
 pymupdf4llm
 python-multipart
 watchdog
